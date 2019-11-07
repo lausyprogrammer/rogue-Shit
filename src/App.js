@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import styled from 'styled-components'
 import { Box, Heading, Flex } from 'rebass';
-import { Label, Select } from '@rebass/forms';
+import { Label, Select, Checkbox } from '@rebass/forms';
 import { ThemeProvider } from 'emotion-theming'
 import theme from '@rebass/preset'
 
 import Table from './Components/Table';
 import data from './Fixture/ROGUE_GEAR.json'
+
+const CURRENT_PHASE = 1;
 
 const Styles = styled.div`
   padding: 1rem;
@@ -67,7 +69,8 @@ function capitalize(str) {
 }
 
 const DATA_BY_BUCKETS = data.map(item => {
-  const { crit, hit, parry, dodge, armor, agility, stamina, strength, attackPower } = item;
+  const { crit, hit, parry, dodge, armor, agility, stamina, strength, attackPower, loc, phase } = item;
+  const isAvailableToday = phase <= CURRENT_PHASE || (loc.includes('DM') && phase < 3);
   return {...item,
     otoDaggers: getOtoDaggers(item),
     otoSwords: getOtoSwords(item),
@@ -80,6 +83,7 @@ const DATA_BY_BUCKETS = data.map(item => {
     stamina: getInt(stamina),
     strength: getInt(strength),
     attackPower: getInt(attackPower),
+    isAvailableToday,
   }
 }).reduce((map, item) => {
   const { slot } = item;
@@ -118,6 +122,7 @@ const COLUMNS = [
   { Header: 'Special', accessor: 'special' },
   { Header: 'Link', accessor: 'link', show: false },
   { Header: 'Quality', accessor: 'quality', show: false },
+  { Header: 'Is Available', accessor: 'isAvailableToday', show: false }
 ];
 
 const STATS_TABLES = [
@@ -191,7 +196,16 @@ function StatsTable(props) {
 
 function App() {
   const [currentSlot, setSlot] = useState(BUCKETS[0]);
-  const data = DATA_BY_BUCKETS[currentSlot].sort((a, b) => b.otoSwords - a.otoSwords);
+  const [isAvailableOnly, setIsAvailableOny] = useState(true);
+  const data = React.useMemo(() => {
+    let rows = DATA_BY_BUCKETS[currentSlot].sort((a, b) => b.otoSwords - a.otoSwords);
+
+    if (isAvailableOnly) {
+      rows = rows.filter(_ => _.isAvailableToday);
+    }
+
+    return rows;
+  }, [currentSlot, isAvailableOnly]);
 
   return (
     <ThemeProvider theme={theme}>
@@ -221,18 +235,26 @@ function App() {
             ))}
           </Flex>
         </Flex>
-        <Box mb={3} mx="auto" width={360}>
-          <Label htmlFor='slot'>Slot</Label>
-          <Select
-            id='slot'
-            name='slot'
-            onChange={(e) => setSlot(e.target.value)}
-            value={currentSlot}>
-            {BUCKETS.map(slot => (
-              <option key={slot} value={slot}>{capitalize(slot)}</option>
-            ))}
-          </Select>
-        </Box>
+        <Flex flex alignItems="center" maxWidth={600} m="auto">
+          <Box>
+            <Label flex alignItems="center">
+              <Checkbox checked={!isAvailableOnly} onChange={() => setIsAvailableOny(!isAvailableOnly)} />
+              Show Gear From All Phases
+            </Label>
+          </Box>
+          <Box mb={3} mx="auto" width={360}>
+            <Label htmlFor='slot' mb={1}>Slot</Label>
+            <Select
+              id='slot'
+              name='slot'
+              onChange={(e) => setSlot(e.target.value)}
+              value={currentSlot}>
+              {BUCKETS.map(slot => (
+                <option key={slot} value={slot}>{capitalize(slot)}</option>
+              ))}
+            </Select>
+          </Box>
+        </Flex>
         <Table columns={COLUMNS} data={data} />
       </Box>
     </Styles>

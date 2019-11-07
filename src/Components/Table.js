@@ -10,7 +10,6 @@ const PHASE_BACKGROUND_COLORS = {
   6: '#aaa'
 }
 
-const CURRENT_PHASE = 1;
 const PhaseRow = styled.tr`
   background-color: ${props => props.isAvailableToday ? '#fff' : PHASE_BACKGROUND_COLORS[props.phase]};
 `;
@@ -63,10 +62,9 @@ export default function Table({ columns, data }) {
           {rows.map(
             (row, i) => {
               prepareRow(row);
-              const isAvailableToday = (row.values.phase <= CURRENT_PHASE) || row.values.loc.includes('DM');
 
               return (
-                <PhaseRow {...row.getRowProps()} isAvailableToday={isAvailableToday} phase={row.values.phase}>
+                <PhaseRow {...row.getRowProps()} isAvailableToday={row.values.isAvailableToday} phase={row.values.phase}>
                   {row.cells.map(cell => {
                     const cellProps = cell.getCellProps();
                     const isNameCell = cell.column.Header === 'Name';
