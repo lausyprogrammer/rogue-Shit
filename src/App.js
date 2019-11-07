@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components'
-import { Box, Heading } from 'rebass';
+import { Box, Heading, Flex } from 'rebass';
 import { Label, Select } from '@rebass/forms';
 import { ThemeProvider } from 'emotion-theming'
 import theme from '@rebass/preset'
@@ -118,7 +118,76 @@ const COLUMNS = [
   { Header: 'Special', accessor: 'special' },
   { Header: 'Link', accessor: 'link', show: false },
   { Header: 'Quality', accessor: 'quality', show: false },
+];
+
+const STATS_TABLES = [
+  {
+    name: 'Oto Sword',
+    table: [['1 Crit', '29 AP'],
+    ['1 Hit', '21 AP'],
+    ['1 Agi', '2.2 AP'],
+    ['1 Str', '1.1 AP'],
+    ['1 Sta', '0 AP'],
+    ['1 AP', '1 AP']],
+    desc: 'From Oto\'s Rogue Guide created back in March of 2015 for Nostalrius. These numbers assume a combat swords spec',
+    src: 'https://forum.nostalrius.org/viewtopic.php?f=37&t=5412',
+  },
+  {
+    name: 'Oto Dagger',
+    table: [['1 Crit', '25 AP'],
+    ['1 Hit', '18 AP'],
+    ['1 Agi', '2 AP'],
+    ['1 Str', '1.1 AP'],
+    ['1 Sta', '0 AP'],
+    ['1 AP', '1 AP']],
+    desc: 'From Oto\'s Rogue Guide created back in March of 2015 for Nostalrius. These numbers assume a combat daggers spec',
+    src: 'https://forum.nostalrius.org/viewtopic.php?f=37&t=5412',
+  },
+  {
+    name: 'AEP',
+    table: [['1 Crit', '10 Agi'],
+    ['1 Hit', '7.5 Agi'],
+    ['1 Agi', '1 Agi'],
+    ['1 Str', '0.5 Agi'],
+    ['1 Sta', '1 Agi'],
+    ['1 AP', '0.5 Agi']],
+    src: 'https://shadowpanther.net/',
+    desc: 'Agility Equivalence Points. A method to convert the value of item attributes to compare them in terms of Agility points. Based on the forum discussion by Ming from Lightning\'s Blade. This is a PVP-Oriented formula which gives more weight to Stamina and defensive stats.'
+  },
+  {
+    name: 'MAEP',
+    table: [['1 Crit', '10 Agi'],
+    ['1 Hit', '7.5 Agi'],
+    ['1 Agi', '1 Agi'],
+    ['1 Str', '0.5 Agi'],
+    ['1 Sta', '0 Agi'],
+    ['1 AP', '0.5 Agi']],
+    src: 'https://shadowpanther.net/',
+    desc: 'Maximum DPS AEP for use in maximizing PVE raid DPS.'
+  },
 ]
+
+
+function StatsTable(props) {
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        {props.data.map(([a, b]) =>  (
+          <tr>
+            <td>{a}</td>
+            <td>{b}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )
+}
 
 function App() {
   const [currentSlot, setSlot] = useState(BUCKETS[0]);
@@ -127,21 +196,44 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     <Styles>
-      <Heading textAlign="center">Delrond did a thing...</Heading>
       <Box m="auto">
-      <Box mb={3} mx="auto" width={360}>
-        <Label htmlFor='slot'>Slot</Label>
-        <Select
-          id='slot'
-          name='slot'
-          onChange={(e) => setSlot(e.target.value)}
-          value={currentSlot}>
+        <Flex alignItems="center" justifyContent="space-around">
+          <Box width={0.25}>
+            <Heading mr={5}>Methodology</Heading>
+            <ul>
+              <li>
+                  Oto's measurements are based on the popular rogue guide created for Nostalrius and assume that the users are combat specced and raid buffed. The tables to the right explicitly reflect Alliance buffs. <a href="https://forum.nostalrius.org/viewtopic.php?f=37&t=5412" target="_blank" rel="noopener noreferrer">[src]</a>
+              </li>
+              <li>
+                  AEP stands for Agility Equivalence Points. It's a method to convert the value of item attributes to compare them in terms of Agility points. This is based on the forum discussions with Ming from Lightning's Blade. This is a PVP-Oriented formula which gives more weight to Stamina and defensive stats. <a href="https://shadowpanther.net" target="_blank" rel="noopener noreferrer">[src]</a>
+              </li>
+              <li>
+                MAEP stands for Maxmium DPS AEP and is for most intents and purposes the same thing as AEP while ascribing no value to stamina.
+              </li>
+            </ul>
+          </Box>
+          <Flex justifyContent="space-around">
+            {STATS_TABLES.map(table => (
+              <Box key={table.name} p={2}>
+                <h3>{table.name}</h3>
+                <StatsTable data={table.table} />
+              </Box>
+            ))}
+          </Flex>
+        </Flex>
+        <Box mb={3} mx="auto" width={360}>
+          <Label htmlFor='slot'>Slot</Label>
+          <Select
+            id='slot'
+            name='slot'
+            onChange={(e) => setSlot(e.target.value)}
+            value={currentSlot}>
             {BUCKETS.map(slot => (
               <option key={slot} value={slot}>{capitalize(slot)}</option>
             ))}
           </Select>
-      </Box>
-      <Table columns={COLUMNS} data={data} />
+        </Box>
+        <Table columns={COLUMNS} data={data} />
       </Box>
     </Styles>
     </ThemeProvider>

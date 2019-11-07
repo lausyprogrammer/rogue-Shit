@@ -73,7 +73,7 @@ export default function Table({ columns, data }) {
 
                     return isNameCell ? (
                       <td {...cellProps}>
-                        <Loot href={cell.row.values.link} quality={row.values.quality}>{cell.render('Cell')}</Loot>
+                        <Loot href={cell.row.values.link} target="_blank" rel="noopener noreferrer" quality={row.values.quality}>{cell.render('Cell')}</Loot>
                       </td>
                     ) : (
                       <td {...cellProps}>{cell.render('Cell')}</td>
