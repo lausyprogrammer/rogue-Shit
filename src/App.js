@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import styled from 'styled-components'
-import { Box } from 'rebass';
+import { Box, Heading } from 'rebass';
 import { Label, Select } from '@rebass/forms';
+import { ThemeProvider } from 'emotion-theming'
+import theme from '@rebass/preset'
 
 import Table from './Components/Table';
 import data from './Fixture/ROGUE_GEAR.json'
@@ -12,6 +14,7 @@ const Styles = styled.div`
   table {
     border-spacing: 0;
     border: 1px solid black;
+    margin: auto;
 
     tr {
       :last-child {
@@ -117,8 +120,11 @@ function App() {
   const data = DATA_BY_BUCKETS[currentSlot];
 
   return (
+    <ThemeProvider theme={theme}>
     <Styles>
-      <Box>
+      <Heading textAlign="center">Delrond did a thing...</Heading>
+      <Box m="auto">
+      <Box mb={3} mx="auto" width={360}>
         <Label htmlFor='slot'>Slot</Label>
         <Select
           id='slot'
@@ -131,7 +137,9 @@ function App() {
           </Select>
       </Box>
       <Table columns={COLUMNS} data={data} />
+      </Box>
     </Styles>
+    </ThemeProvider>
   );
 }
 

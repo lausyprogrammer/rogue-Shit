@@ -49,16 +49,15 @@ export default function Table({ columns, data }) {
                 <tr {...row.getRowProps()}>
                   {row.cells.map(cell => {
                     const cellProps = cell.getCellProps();
-                    const innerCell = (
-                      <td {...cellProps}>{cell.render('Cell')}</td>
-                    );
-
                     const isNameCell = cell.column.Header === 'Name';
+
                     return isNameCell ? (
-                      <a key={cellProps.key} href={cell.row.values.link}>
-                        {innerCell}
-                      </a>
-                    ) : innerCell
+                      <td {...cellProps}>
+                        <a href={cell.row.values.link}>{cell.render('Cell')}</a>
+                      </td>
+                    ) : (
+                      <td {...cellProps}>{cell.render('Cell')}</td>
+                      )
                   })}
                 </tr>
               )
