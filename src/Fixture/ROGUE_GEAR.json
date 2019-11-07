@@ -2,6 +2,7 @@
   {
     "name": "Bonescythe Helmet",
     "link": "https://classicdb.ch/?item=22478",
+    "quality": "purple",
     "aep": 98,
     "maep": 67,
     "loc": "Naxx",
@@ -27,6 +28,7 @@
   {
     "name": "Deathdealer's Helm",
     "link": "https://classicdb.ch/?item=21360",
+    "quality": "purple",
     "aep": 88,
     "maep": 59,
     "loc": "AQ40",
@@ -52,6 +54,7 @@
   {
     "name": "Bloodfang Hood",
     "link": "https://classicdb.ch/?item=16908",
+    "quality": "purple",
     "aep": 75,
     "maep": 47,
     "loc": "OL",
@@ -77,6 +80,7 @@
   {
     "name": "Circlet of Restless Dreams",
     "link": "https://classicdb.ch/?item=20623",
+    "quality": "purple",
     "aep": 67,
     "maep": 46,
     "loc": "4D",
@@ -102,6 +106,7 @@
   {
     "name": "Field Marshal's Leather Mask",
     "link": "https://classicdb.ch/?item=16455",
+    "quality": "purple",
     "aep": 78,
     "maep": 45,
     "loc": "PVP",
@@ -127,6 +132,7 @@
   {
     "name": "Warlord's Leather Helm",
     "link": "https://classicdb.ch/?item=16561",
+    "quality": "purple",
     "aep": 78,
     "maep": 45,
     "loc": "PVP",
@@ -152,6 +158,7 @@
   {
     "name": "Nightslayer Cover",
     "link": "https://classicdb.ch/?item=16821",
+    "quality": "purple",
     "aep": 65,
     "maep": 43,
     "loc": "MC",
@@ -177,6 +184,7 @@
   {
     "name": "Darkmantle Cap",
     "link": "https://classicdb.ch/?item=22005",
+    "quality": "purple",
     "aep": 62,
     "maep": 43,
     "loc": "Q",
@@ -202,6 +210,7 @@
   {
     "name": "Foror's Eyepatch",
     "link": "https://classicdb.ch/?item=19945",
+    "quality": "purple",
     "aep": 63,
     "maep": 42,
     "loc": "ZG",
@@ -227,6 +236,7 @@
   {
     "name": "Southwind Helm",
     "link": "https://classicdb.ch/?item=21455",
+    "quality": "rgb(51, 102, 255)",
     "aep": 58,
     "maep": 42,
     "loc": "AQ20",
@@ -252,6 +262,7 @@
   {
     "name": "Blooddrenched Mask",
     "link": "https://classicdb.ch/?item=22718",
+    "quality": "rgb(51, 102, 255)",
     "aep": 56,
     "maep": 37,
     "loc": "ZG",
@@ -277,6 +288,7 @@
   {
     "name": "Champion's Leather Helm",
     "link": "https://classicdb.ch/?item=23257",
+    "quality": "rgb(51, 102, 255)",
     "aep": 61,
     "maep": 36,
     "loc": "PVP",
@@ -302,6 +314,7 @@
   {
     "name": "Lt. Comm. Leather Helm",
     "link": "https://classicdb.ch/?item=23312",
+    "quality": "rgb(51, 102, 255)",
     "aep": 61,
     "maep": 36,
     "loc": "PVP",
@@ -327,6 +340,7 @@
   {
     "name": "Supreme Crown of the Tiger",
     "link": "https://classicdb.ch/?item=15439",
+    "quality": "green",
     "aep": 30,
     "maep": 29,
     "loc": "R",
@@ -352,6 +366,7 @@
   {
     "name": "Ebon Mask",
     "link": "https://classicdb.ch/?item=19984",
+    "quality": "rgb(51, 102, 255)",
     "aep": 40,
     "maep": 28,
     "loc": "Azs",
@@ -377,6 +392,7 @@
   {
     "name": "Guise of the Devourer",
     "link": "https://classicdb.ch/?item=21693",
+    "quality": "purple",
     "aep": 69,
     "maep": 28,
     "loc": "AQ40",
@@ -402,6 +418,7 @@
   {
     "name": "Advr's Bandana of the Tiger",
     "link": "https://classicdb.ch/?item=10261",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "R",
@@ -427,6 +444,7 @@
   {
     "name": "Grand Crown of the Tiger",
     "link": "https://classicdb.ch/?item=15193",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "R",
@@ -452,6 +470,7 @@
   {
     "name": "Mighty Helmet of the Tiger",
     "link": "https://classicdb.ch/?item=10150",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "R",
@@ -477,6 +496,7 @@
   {
     "name": "Nightshade Helmet of the Tiger",
     "link": "https://classicdb.ch/?item=10226",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "R",
@@ -502,6 +522,7 @@
   {
     "name": "Shadowcraft Cap",
     "link": "https://classicdb.ch/?item=16707",
+    "quality": "rgb(51, 102, 255)",
     "aep": 46,
     "maep": 27,
     "loc": "Sch",
@@ -527,6 +548,7 @@
   {
     "name": "Eye of Rend",
     "link": "https://classicdb.ch/?item=12587",
+    "quality": "rgb(51, 102, 255)",
     "aep": 35,
     "maep": 27,
     "loc": "UBRS",
@@ -552,6 +574,7 @@
   {
     "name": "Ghostshroud",
     "link": "https://classicdb.ch/?item=11925",
+    "quality": "rgb(51, 102, 255)",
     "aep": 45,
     "maep": 25,
     "loc": "BRD",
@@ -577,6 +600,7 @@
   {
     "name": "Mask of the Unforgiven",
     "link": "https://classicdb.ch/?item=13404",
+    "quality": "rgb(51, 102, 255)",
     "aep": 38,
     "maep": 25,
     "loc": "Str",
@@ -602,6 +626,7 @@
   {
     "name": "Ragefury Eyepatch",
     "link": "https://classicdb.ch/?item=11735",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 23,
     "loc": "BRD",
@@ -627,6 +652,7 @@
   {
     "name": "Righteous Helmet of the Tiger",
     "link": "https://classicdb.ch/?item=10073",
+    "quality": "green",
     "aep": 24,
     "maep": 23,
     "loc": "R",
@@ -652,6 +678,7 @@
   {
     "name": "Helm of Fire",
     "link": "https://classicdb.ch/?item=8348",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 22,
     "loc": "LW",
@@ -677,6 +704,7 @@
   {
     "name": "Felhide Cap",
     "link": "https://classicdb.ch/?item=18325",
+    "quality": "rgb(51, 102, 255)",
     "aep": 38,
     "maep": 21,
     "loc": "DM-E",
@@ -702,6 +730,7 @@
   {
     "name": "Bloodvine Lens",
     "link": "https://classicdb.ch/?item=19998",
+    "quality": "rgb(51, 102, 255)",
     "aep": 35,
     "maep": 21,
     "loc": "Eng",
@@ -727,6 +756,7 @@
   {
     "name": "Embrace of the Lycan",
     "link": "https://classicdb.ch/?item=9479",
+    "quality": "rgb(51, 102, 255)",
     "aep": 37,
     "maep": 20,
     "loc": "ZF",
@@ -752,6 +782,7 @@
   {
     "name": "Polar Helmet",
     "link": "https://classicdb.ch/?item=23020",
+    "quality": "purple",
     "aep": 48,
     "maep": 19,
     "loc": "Naxx",
@@ -777,6 +808,7 @@
   {
     "name": "Tattered Leather Hood",
     "link": "https://classicdb.ch/?item=18698",
+    "quality": "rgb(51, 102, 255)",
     "aep": 42,
     "maep": 18,
     "loc": "Sch",
@@ -802,6 +834,7 @@
   {
     "name": "Wicked Leather Headband",
     "link": "https://classicdb.ch/?item=15086",
+    "quality": "green",
     "aep": 33,
     "maep": 16,
     "loc": "LW",
@@ -827,6 +860,7 @@
   {
     "name": "Champion's Leather Headguard",
     "link": "https://classicdb.ch/?item=23257",
+    "quality": "rgb(51, 102, 255)",
     "aep": 44,
     "maep": 14,
     "loc": "PVP",
@@ -852,6 +886,7 @@
   {
     "name": "Lt. Comm. Leather Veil",
     "link": "https://classicdb.ch/?item=16418",
+    "quality": "rgb(51, 102, 255)",
     "aep": 44,
     "maep": 14,
     "loc": "PVP",
@@ -877,6 +912,7 @@
   {
     "name": "Prestor's Talisman of Connivery",
     "link": "https://classicdb.ch/?item=19377",
+    "quality": "purple",
     "aep": 38,
     "maep": 38,
     "loc": "BWL",
@@ -902,6 +938,7 @@
   {
     "name": "Stormrage's Talisman of Seething",
     "link": "https://classicdb.ch/?item=23053",
+    "quality": "purple",
     "aep": 45,
     "maep": 33,
     "loc": "Naxx",
@@ -927,6 +964,7 @@
   {
     "name": "Barbed Choker",
     "link": "https://classicdb.ch/?item=21664",
+    "quality": "purple",
     "aep": 42,
     "maep": 32,
     "loc": "AQ40",
@@ -952,6 +990,7 @@
   {
     "name": "The Eye of Hakkar",
     "link": "https://classicdb.ch/?item=19856",
+    "quality": "purple",
     "aep": 30,
     "maep": 30,
     "loc": "ZG",
@@ -977,6 +1016,7 @@
   {
     "name": "Onyxia Tooth Pendant",
     "link": "https://classicdb.ch/?item=18404",
+    "quality": "purple",
     "aep": 40,
     "maep": 30,
     "loc": "OL",
@@ -1002,6 +1042,7 @@
   {
     "name": "Amulet of the Darkmoon",
     "link": "https://classicdb.ch/?item=19491",
+    "quality": "purple",
     "aep": 34,
     "maep": 24,
     "loc": "DMF",
@@ -1027,6 +1068,7 @@
   {
     "name": "Mark of Fordring",
     "link": "https://classicdb.ch/?item=15411",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 23,
     "loc": "Str",
@@ -1052,6 +1094,7 @@
   {
     "name": "Pendant of Celerity",
     "link": "https://classicdb.ch/?item=22340",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 23,
     "loc": "UBRS",
@@ -1077,6 +1120,7 @@
   {
     "name": "Medallion of the Dawn",
     "link": "https://classicdb.ch/?item=22659",
+    "quality": "purple",
     "aep": 34,
     "maep": 22,
     "loc": "EPL",
@@ -1102,6 +1146,7 @@
   {
     "name": "Fury of the Forgotten Swarm",
     "link": "https://classicdb.ch/?item=21809",
+    "quality": "rgb(51, 102, 255)",
     "aep": 22,
     "maep": 22,
     "loc": "AQ20",
@@ -1127,6 +1172,7 @@
   {
     "name": "Choker of the Shifting Sands",
     "link": "https://classicdb.ch/?item=21505",
+    "quality": "purple",
     "aep": 37,
     "maep": 21,
     "loc": "AQ20",
@@ -1152,6 +1198,7 @@
   {
     "name": "Sadist's Collar",
     "link": "https://classicdb.ch/?item=23023",
+    "quality": "purple",
     "aep": 44,
     "maep": 20,
     "loc": "Naxx",
@@ -1177,6 +1224,7 @@
   {
     "name": "Beads of Ogre Might",
     "link": "https://classicdb.ch/?item=22150",
+    "quality": "rgb(51, 102, 255)",
     "aep": 27,
     "maep": 20,
     "loc": "DM-W",
@@ -1202,6 +1250,7 @@
   {
     "name": "Blazefury Medallion",
     "link": "https://classicdb.ch/?item=17111",
+    "quality": "purple",
     "aep": 34,
     "maep": 19,
     "loc": "BL",
@@ -1227,6 +1276,7 @@
   {
     "name": "Zand. Shadow Mastery Talisman",
     "link": "https://classicdb.ch/?item=19617",
+    "quality": "purple",
     "aep": 28,
     "maep": 18,
     "loc": "ZG",
@@ -1252,6 +1302,7 @@
   {
     "name": "Zandalarian Shadow Talisman (3)",
     "link": "https://classicdb.ch/?item=19616",
+    "quality": "rgb(51, 102, 255)",
     "aep": 27,
     "maep": 18,
     "loc": "ZG",
@@ -1277,6 +1328,7 @@
   {
     "name": "Pendant of the Qiraji Guardian",
     "link": "https://classicdb.ch/?item=21700",
+    "quality": "purple",
     "aep": 35,
     "maep": 17,
     "loc": "AQ40",
@@ -1302,6 +1354,7 @@
   {
     "name": "Prismatic Pendant of the Tiger",
     "link": "https://classicdb.ch/?item=12048",
+    "quality": "green",
     "aep": 17,
     "maep": 17,
     "loc": "R",
@@ -1327,6 +1380,7 @@
   {
     "name": "Imperial Jewel",
     "link": "https://classicdb.ch/?item=11933",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 16,
     "loc": "BRD",
@@ -1352,6 +1406,7 @@
   {
     "name": "Skibi's Pendant",
     "link": "https://classicdb.ch/?item=13089",
+    "quality": "rgb(51, 102, 255)",
     "aep": 16,
     "maep": 16,
     "loc": "R",
@@ -1377,6 +1432,7 @@
   {
     "name": "Will of the Martyr",
     "link": "https://classicdb.ch/?item=17044",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 15,
     "loc": "Str",
@@ -1402,6 +1458,7 @@
   {
     "name": "Scout's Medallion (58)",
     "link": "https://classicdb.ch/?item=19534",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 15,
     "loc": "PVP",
@@ -1427,6 +1484,7 @@
   {
     "name": "Sentinel's Medallion (58)",
     "link": "https://classicdb.ch/?item=19538",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 15,
     "loc": "PVP",
@@ -1452,6 +1510,7 @@
   {
     "name": "Evil Eye Pendant",
     "link": "https://classicdb.ch/?item=18381",
+    "quality": "rgb(51, 102, 255)",
     "aep": 17,
     "maep": 15,
     "loc": "DM-W",
@@ -1477,6 +1536,7 @@
   {
     "name": "Zandalarian Shadow Talisman (2)",
     "link": "https://classicdb.ch/?item=19615",
+    "quality": "rgb(51, 102, 255)",
     "aep": 22,
     "maep": 15,
     "loc": "ZG",
@@ -1502,6 +1562,7 @@
   {
     "name": "Jungle Necklace of the Tiger",
     "link": "https://classicdb.ch/?item=12046",
+    "quality": "green",
     "aep": 15,
     "maep": 15,
     "loc": "R",
@@ -1527,6 +1588,7 @@
   {
     "name": "Master Dragonslayer's Medallion",
     "link": "https://classicdb.ch/?item=19383",
+    "quality": "purple",
     "aep": 39,
     "maep": 14,
     "loc": "BWL",
@@ -1552,6 +1614,7 @@
   {
     "name": "Talisman of Evasion",
     "link": "https://classicdb.ch/?item=13177",
+    "quality": "rgb(51, 102, 255)",
     "aep": 16,
     "maep": 13,
     "loc": "LBRS",
@@ -1577,6 +1640,7 @@
   {
     "name": "Amulet of Foul Warding",
     "link": "https://classicdb.ch/?item=21702",
+    "quality": "purple",
     "aep": 26,
     "maep": 12,
     "loc": "AQ40",
@@ -1602,6 +1666,7 @@
   {
     "name": "Dragonheart Necklace",
     "link": "https://classicdb.ch/?item=20622",
+    "quality": "purple",
     "aep": 33,
     "maep": 12,
     "loc": "4D",
@@ -1627,6 +1692,7 @@
   {
     "name": "Woven Ivy Necklace (Horde)",
     "link": "https://classicdb.ch/?item=19159",
+    "quality": "rgb(51, 102, 255)",
     "aep": 22,
     "maep": 12,
     "loc": "Hin",
@@ -1652,6 +1718,7 @@
   {
     "name": "Scout's Medallion (48)",
     "link": "https://classicdb.ch/?item=19535",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 12,
     "loc": "WSG",
@@ -1677,6 +1744,7 @@
   {
     "name": "Sentinel's Medallion (48)",
     "link": "https://classicdb.ch/?item=19539",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 12,
     "loc": "WSG",
@@ -1702,6 +1770,7 @@
   {
     "name": "Zandalarian Shadow Talisman (1)",
     "link": "https://classicdb.ch/?item=19614",
+    "quality": "green",
     "aep": 19,
     "maep": 12,
     "loc": "ZG",
@@ -1727,6 +1796,7 @@
   {
     "name": "Sunprism Pendant",
     "link": "https://classicdb.ch/?item=20649",
+    "quality": "green",
     "aep": 19,
     "maep": 12,
     "loc": "Sil",
@@ -1752,6 +1822,7 @@
   {
     "name": "Scout's Medallion (38)",
     "link": "https://classicdb.ch/?item=19536",
+    "quality": "rgb(51, 102, 255)",
     "aep": 18,
     "maep": 11,
     "loc": "WSG",
@@ -1777,6 +1848,7 @@
   {
     "name": "Sentinel's Medallion (38)",
     "link": "https://classicdb.ch/?item=19540",
+    "quality": "rgb(51, 102, 255)",
     "aep": 18,
     "maep": 11,
     "loc": "WSG",
@@ -1802,6 +1874,7 @@
   {
     "name": "Eskhandar's Collar",
     "link": "https://classicdb.ch/?item=18205",
+    "quality": "purple",
     "aep": 30,
     "maep": 10,
     "loc": "OL",
@@ -1827,6 +1900,7 @@
   {
     "name": "Abyssal War Beads",
     "link": "https://classicdb.ch/?item=20695",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 10,
     "loc": "Sil",
@@ -1852,6 +1926,7 @@
   {
     "name": "Emberfury Talisman",
     "link": "https://classicdb.ch/?item=12929",
+    "quality": "rgb(51, 102, 255)",
     "aep": 19,
     "maep": 10,
     "loc": "UBRS",
@@ -1877,6 +1952,7 @@
   {
     "name": "Stormpike Soldier's Pendant",
     "link": "https://classicdb.ch/?item=19097",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 9,
     "loc": "AV",
@@ -1902,6 +1978,7 @@
   {
     "name": "Frostwolf Legionnaire's Pendant",
     "link": "https://classicdb.ch/?item=19095",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 9,
     "loc": "AV",
@@ -1927,6 +2004,7 @@
   {
     "name": "Conqueror's Medallion (Horde)",
     "link": "https://classicdb.ch/?item=12059",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 9,
     "loc": "BRD",
@@ -1952,6 +2030,7 @@
   {
     "name": "Pendant of the Shifting Sands",
     "link": "https://classicdb.ch/?item=21506",
+    "quality": "purple",
     "aep": 29,
     "maep": 7,
     "loc": "AQ20",
@@ -1977,6 +2056,7 @@
   {
     "name": "Bonescythe Pauldrons",
     "link": "https://classicdb.ch/?item=22479",
+    "quality": "purple",
     "aep": 67,
     "maep": 51,
     "loc": "Naxx",
@@ -2002,6 +2082,7 @@
   {
     "name": "Deathdealer's Spaulders",
     "link": "https://classicdb.ch/?item=21361",
+    "quality": "purple",
     "aep": 60,
     "maep": 44,
     "loc": "AQ40",
@@ -2027,6 +2108,7 @@
   {
     "name": "Mantle of Wicked Revenge",
     "link": "https://classicdb.ch/?item=21665",
+    "quality": "purple",
     "aep": 54,
     "maep": 38,
     "loc": "AQ40",
@@ -2052,6 +2134,7 @@
   {
     "name": "Nightslayer Shoulder Pads",
     "link": "https://classicdb.ch/?item=16823",
+    "quality": "purple",
     "aep": 49,
     "maep": 35,
     "loc": "MC",
@@ -2077,6 +2160,7 @@
   {
     "name": "Zandalar Madcap's Mantle",
     "link": "https://classicdb.ch/?item=19835",
+    "quality": "purple",
     "aep": 47,
     "maep": 34,
     "loc": "ZG",
@@ -2102,6 +2186,7 @@
   {
     "name": "Highlander's Leather Shoulders",
     "link": "https://classicdb.ch/?item=20059",
+    "quality": "purple",
     "aep": 53,
     "maep": 33,
     "loc": "AB",
@@ -2127,6 +2212,7 @@
   {
     "name": "Defiler's Leather Shoulders",
     "link": "https://classicdb.ch/?item=20194",
+    "quality": "purple",
     "aep": 53,
     "maep": 33,
     "loc": "AB",
@@ -2152,6 +2238,7 @@
   {
     "name": "Chitinous Shoulderguards",
     "link": "https://classicdb.ch/?item=21474",
+    "quality": "rgb(51, 102, 255)",
     "aep": 39,
     "maep": 31,
     "loc": "AQ20",
@@ -2177,6 +2264,7 @@
   {
     "name": "Field Marshal's Leather Epaulets",
     "link": "https://classicdb.ch/?item=16457",
+    "quality": "purple",
     "aep": 58,
     "maep": 29,
     "loc": "PVP",
@@ -2202,6 +2290,7 @@
   {
     "name": "Warlord's Leather Spaulders",
     "link": "https://classicdb.ch/?item=16562",
+    "quality": "purple",
     "aep": 58,
     "maep": 29,
     "loc": "PVP",
@@ -2227,6 +2316,7 @@
   {
     "name": "Lt. Comm. Leather Shoulders",
     "link": "https://classicdb.ch/?item=23313",
+    "quality": "rgb(51, 102, 255)",
     "aep": 47,
     "maep": 29,
     "loc": "PVP",
@@ -2252,6 +2342,7 @@
   {
     "name": "Champion's Leather Shoulders",
     "link": "https://classicdb.ch/?item=23258",
+    "quality": "rgb(51, 102, 255)",
     "aep": 47,
     "maep": 29,
     "loc": "PVP",
@@ -2277,6 +2368,7 @@
   {
     "name": "Bloodfang Spaulders",
     "link": "https://classicdb.ch/?item=16832",
+    "quality": "purple",
     "aep": 51,
     "maep": 28,
     "loc": "BWL",
@@ -2302,6 +2394,7 @@
   {
     "name": "Highlander's Lizardhide Shoulders",
     "link": "https://classicdb.ch/?item=20060",
+    "quality": "purple",
     "aep": 47,
     "maep": 27,
     "loc": "AB",
@@ -2327,6 +2420,7 @@
   {
     "name": "Defiler's Lizardhide Shoulders",
     "link": "https://classicdb.ch/?item=20175",
+    "quality": "purple",
     "aep": 47,
     "maep": 27,
     "loc": "AB",
@@ -2352,6 +2446,7 @@
   {
     "name": "Truestrike Shoulders",
     "link": "https://classicdb.ch/?item=12927",
+    "quality": "rgb(51, 102, 255)",
     "aep": 28,
     "maep": 27,
     "loc": "UBRS",
@@ -2377,6 +2472,7 @@
   {
     "name": "Abyssal Leather Shoulders of Stri.",
     "link": "https://classicdb.ch/?item=20689",
+    "quality": "rgb(51, 102, 255)",
     "aep": 39,
     "maep": 26,
     "loc": "Sil",
@@ -2402,6 +2498,7 @@
   {
     "name": "Darkmantle Spaulders",
     "link": "https://classicdb.ch/?item=22008",
+    "quality": "rgb(51, 102, 255)",
     "aep": 35,
     "maep": 24,
     "loc": "Q",
@@ -2427,6 +2524,7 @@
   {
     "name": "Taut Dragonhide Shoulderpads",
     "link": "https://classicdb.ch/?item=19389",
+    "quality": "purple",
     "aep": 55,
     "maep": 23,
     "loc": "BWL",
@@ -2452,6 +2550,7 @@
   {
     "name": "Wyrmtongue Shoulders",
     "link": "https://classicdb.ch/?item=13358",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 23,
     "loc": "Str",
@@ -2477,6 +2576,7 @@
   {
     "name": "Dark Warder's Pauldrons",
     "link": "https://classicdb.ch/?item=22241",
+    "quality": "rgb(51, 102, 255)",
     "aep": 31,
     "maep": 23,
     "loc": "BRD",
@@ -2502,6 +2602,7 @@
   {
     "name": "Shadowcraft Spaulders",
     "link": "https://classicdb.ch/?item=16708",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 22,
     "loc": "Str",
@@ -2527,6 +2628,7 @@
   {
     "name": "Spaulders of the Unseen",
     "link": "https://classicdb.ch/?item=13116",
+    "quality": "rgb(51, 102, 255)",
     "aep": 30,
     "maep": 22,
     "loc": "R",
@@ -2552,6 +2654,7 @@
   {
     "name": "Advr's Shoulders of the Tiger",
     "link": "https://classicdb.ch/?item=10263",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -2577,6 +2680,7 @@
   {
     "name": "Supr. Shoulders of the Tiger",
     "link": "https://classicdb.ch/?item=15441",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -2602,6 +2706,7 @@
   {
     "name": "Mighty Spaulders of the Tiger",
     "link": "https://classicdb.ch/?item=10153",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -2627,6 +2732,7 @@
   {
     "name": "Atal'ai Spaulders of the Tiger",
     "link": "https://classicdb.ch/?item=10783",
+    "quality": "rgb(51, 102, 255)",
     "aep": 21,
     "maep": 20,
     "loc": "ToAH",
@@ -2652,6 +2758,7 @@
   {
     "name": "Flamescarred Shoulders",
     "link": "https://classicdb.ch/?item=18374",
+    "quality": "rgb(51, 102, 255)",
     "aep": 31,
     "maep": 18,
     "loc": "DM-W",
@@ -2677,6 +2784,7 @@
   {
     "name": "Praetorian Pauldrons of the Tiger",
     "link": "https://classicdb.ch/?item=15187",
+    "quality": "green",
     "aep": 19,
     "maep": 18,
     "loc": "R",
@@ -2702,6 +2810,7 @@
   {
     "name": "Phytoskin Spaulders",
     "link": "https://classicdb.ch/?item=17749",
+    "quality": "rgb(51, 102, 255)",
     "aep": 28,
     "maep": 16,
     "loc": "Mar",
@@ -2727,6 +2836,7 @@
   {
     "name": "Wyrmhide Spaulders",
     "link": "https://classicdb.ch/?item=12082",
+    "quality": "green",
     "aep": 16,
     "maep": 15,
     "loc": "BRD",
@@ -2752,6 +2862,7 @@
   {
     "name": "Forest Tracker Epaulets",
     "link": "https://classicdb.ch/?item=2278",
+    "quality": "rgb(51, 102, 255)",
     "aep": 14,
     "maep": 14,
     "loc": "R",
@@ -2777,6 +2888,7 @@
   {
     "name": "Champion's Leather Mantle",
     "link": "https://classicdb.ch/?item=23258",
+    "quality": "rgb(51, 102, 255)",
     "aep": 37,
     "maep": 13,
     "loc": "PVP",
@@ -2802,6 +2914,7 @@
   {
     "name": "Lt. Comm. Leather Spaulders",
     "link": "https://classicdb.ch/?item=16420",
+    "quality": "rgb(51, 102, 255)",
     "aep": 37,
     "maep": 13,
     "loc": "PVP",
@@ -2827,6 +2940,7 @@
   {
     "name": "Flintrock Shoulders",
     "link": "https://classicdb.ch/?item=7755",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 13,
     "loc": "SM",
@@ -2852,6 +2966,7 @@
   {
     "name": "Icy Tomb Spaulders",
     "link": "https://classicdb.ch/?item=18699",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 11,
     "loc": "Sch",
@@ -2877,6 +2992,7 @@
   {
     "name": "Stormshroud Shoulders",
     "link": "https://classicdb.ch/?item=15058",
+    "quality": "rgb(51, 102, 255)",
     "aep": 26,
     "maep": 10,
     "loc": "LW",
@@ -2902,6 +3018,7 @@
   {
     "name": "Bonescythe Breastplate",
     "link": "https://classicdb.ch/?item=22476",
+    "quality": "purple",
     "aep": 99,
     "maep": 68,
     "loc": "Naxx",
@@ -2927,6 +3044,7 @@
   {
     "name": "Deathdealer's Vest",
     "link": "https://classicdb.ch/?item=21364",
+    "quality": "purple",
     "aep": 95,
     "maep": 65,
     "loc": "AQ40",
@@ -2952,6 +3070,7 @@
   {
     "name": "Bloodfang Chestpiece",
     "link": "https://classicdb.ch/?item=16905",
+    "quality": "purple",
     "aep": 78,
     "maep": 58,
     "loc": "BWL",
@@ -2977,6 +3096,7 @@
   {
     "name": "Vest of Swift Execution",
     "link": "https://classicdb.ch/?item=21680",
+    "quality": "purple",
     "aep": 74,
     "maep": 52,
     "loc": "AQ40",
@@ -3002,6 +3122,7 @@
   {
     "name": "Darkmantle Tunic",
     "link": "https://classicdb.ch/?item=22009",
+    "quality": "purple",
     "aep": 63,
     "maep": 46,
     "loc": "Q",
@@ -3027,6 +3148,7 @@
   {
     "name": "Nightslayer Chestpiece",
     "link": "https://classicdb.ch/?item=16820",
+    "quality": "purple",
     "aep": 67,
     "maep": 45,
     "loc": "MC",
@@ -3052,6 +3174,7 @@
   {
     "name": "Field Marshal's Leather Chestpiece",
     "link": "https://classicdb.ch/?item=16453",
+    "quality": "purple",
     "aep": 77,
     "maep": 44,
     "loc": "PVP",
@@ -3077,6 +3200,7 @@
   {
     "name": "Warlord's Leather Breastplate",
     "link": "https://classicdb.ch/?item=16563",
+    "quality": "purple",
     "aep": 77,
     "maep": 44,
     "loc": "PVP",
@@ -3102,6 +3226,7 @@
   {
     "name": "Zandalar Madcap's Tunic",
     "link": "https://classicdb.ch/?item=19834",
+    "quality": "purple",
     "aep": 63,
     "maep": 42,
     "loc": "ZG",
@@ -3127,6 +3252,7 @@
   {
     "name": "Cadaverous Armor",
     "link": "https://classicdb.ch/?item=14637",
+    "quality": "rgb(51, 102, 255)",
     "aep": 44,
     "maep": 42,
     "loc": "Sch",
@@ -3152,6 +3278,7 @@
   {
     "name": "Tunic of Undead Slaying",
     "link": "https://classicdb.ch/?item=23089",
+    "quality": "rgb(51, 102, 255)",
     "aep": 62,
     "maep": 41,
     "loc": "R",
@@ -3177,6 +3304,7 @@
   {
     "name": "Ghoul Skin Tunic",
     "link": "https://classicdb.ch/?item=23226",
+    "quality": "purple",
     "aep": 66,
     "maep": 41,
     "loc": "Naxx",
@@ -3202,6 +3330,7 @@
   {
     "name": "Primal Batskin Jerkin",
     "link": "https://classicdb.ch/?item=19685",
+    "quality": "rgb(51, 102, 255)",
     "aep": 47,
     "maep": 40,
     "loc": "LW",
@@ -3227,6 +3356,7 @@
   {
     "name": "Knight-Capt. Leather Chestpiece",
     "link": "https://classicdb.ch/?item=23298",
+    "quality": "rgb(51, 102, 255)",
     "aep": 59,
     "maep": 35,
     "loc": "PVP",
@@ -3252,6 +3382,7 @@
   {
     "name": "Legionnaire's Leather Chestpiece",
     "link": "https://classicdb.ch/?item=22879",
+    "quality": "rgb(51, 102, 255)",
     "aep": 59,
     "maep": 35,
     "loc": "PVP",
@@ -3277,6 +3408,7 @@
   {
     "name": "Nightbrace Tunic",
     "link": "https://classicdb.ch/?item=12603",
+    "quality": "rgb(51, 102, 255)",
     "aep": 44,
     "maep": 30,
     "loc": "UBRS",
@@ -3302,6 +3434,7 @@
   {
     "name": "Thick Silithid Chestguard",
     "link": "https://classicdb.ch/?item=21467",
+    "quality": "purple",
     "aep": 64,
     "maep": 29,
     "loc": "AQ20",
@@ -3327,6 +3460,7 @@
   {
     "name": "Adventurer's Tunic of the Tiger",
     "link": "https://classicdb.ch/?item=10264",
+    "quality": "green",
     "aep": 30,
     "maep": 29,
     "loc": "R",
@@ -3352,6 +3486,7 @@
   {
     "name": "Supr. Breastplate of the Tiger",
     "link": "https://classicdb.ch/?item=15442",
+    "quality": "green",
     "aep": 30,
     "maep": 29,
     "loc": "R",
@@ -3377,6 +3512,7 @@
   {
     "name": "Mighty Tunic of the Tiger",
     "link": "https://classicdb.ch/?item=10151",
+    "quality": "green",
     "aep": 30,
     "maep": 29,
     "loc": "R",
@@ -3402,6 +3538,7 @@
   {
     "name": "Breastplate of Bloodthirst",
     "link": "https://classicdb.ch/?item=12757",
+    "quality": "purple",
     "aep": 51,
     "maep": 27,
     "loc": "WS",
@@ -3427,6 +3564,7 @@
   {
     "name": "Traphook Jerkin",
     "link": "https://classicdb.ch/?item=15825",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "LBRS",
@@ -3452,6 +3590,7 @@
   {
     "name": "Shadowcraft Tunic",
     "link": "https://classicdb.ch/?item=16721",
+    "quality": "rgb(51, 102, 255)",
     "aep": 41,
     "maep": 26,
     "loc": "UBRS",
@@ -3477,6 +3616,7 @@
   {
     "name": "Fungus Shroud Armor",
     "link": "https://classicdb.ch/?item=17742",
+    "quality": "rgb(51, 102, 255)",
     "aep": 36,
     "maep": 25,
     "loc": "Mar",
@@ -3502,6 +3642,7 @@
   {
     "name": "Blazewind Breastplate",
     "link": "https://classicdb.ch/?item=11193",
+    "quality": "green",
     "aep": 31,
     "maep": 25,
     "loc": "Bad",
@@ -3527,6 +3668,7 @@
   {
     "name": "Knight-Capt. Leather Armor",
     "link": "https://classicdb.ch/?item=16419",
+    "quality": "rgb(51, 102, 255)",
     "aep": 50,
     "maep": 23,
     "loc": "PVP",
@@ -3552,6 +3694,7 @@
   {
     "name": "Legionnaire's Leather Hauberk",
     "link": "https://classicdb.ch/?item=16505",
+    "quality": "rgb(51, 102, 255)",
     "aep": 50,
     "maep": 23,
     "loc": "PVP",
@@ -3577,6 +3720,7 @@
   {
     "name": "Quillward Harness",
     "link": "https://classicdb.ch/?item=10583",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 23,
     "loc": "RFD",
@@ -3602,6 +3746,7 @@
   {
     "name": "Tombstone Breastplate",
     "link": "https://classicdb.ch/?item=13944",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 22,
     "loc": "Sch",
@@ -3627,6 +3772,7 @@
   {
     "name": "Malfurion's Blessed Bulwark",
     "link": "https://classicdb.ch/?item=19405",
+    "quality": "purple",
     "aep": 46,
     "maep": 21,
     "loc": "BWL",
@@ -3652,6 +3798,7 @@
   {
     "name": "Mixologist's Tunic",
     "link": "https://classicdb.ch/?item=12793",
+    "quality": "rgb(51, 102, 255)",
     "aep": 40,
     "maep": 20,
     "loc": "BRD",
@@ -3677,6 +3824,7 @@
   {
     "name": "Stormshroud Armor",
     "link": "https://classicdb.ch/?item=15056",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 20,
     "loc": "LW",
@@ -3702,6 +3850,7 @@
   {
     "name": "Songbird Blouse",
     "link": "https://classicdb.ch/?item=13378",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 20,
     "loc": "Str",
@@ -3727,6 +3876,7 @@
   {
     "name": "Polar Tunic",
     "link": "https://classicdb.ch/?item=22661",
+    "quality": "purple",
     "aep": 50,
     "maep": 19,
     "loc": "Naxx",
@@ -3752,6 +3902,7 @@
   {
     "name": "Belt of Never-ending Agony",
     "link": "https://classicdb.ch/?item=21586",
+    "quality": "purple",
     "aep": 71,
     "maep": 50,
     "loc": "AQ40",
@@ -3777,6 +3928,7 @@
   {
     "name": "Bonescythe Waistguard",
     "link": "https://classicdb.ch/?item=22482",
+    "quality": "purple",
     "aep": 67,
     "maep": 46,
     "loc": "Naxx",
@@ -3802,6 +3954,7 @@
   {
     "name": "Bloodfang Belt",
     "link": "https://classicdb.ch/?item=16910",
+    "quality": "purple",
     "aep": 54,
     "maep": 37,
     "loc": "BWL",
@@ -3827,6 +3980,7 @@
   {
     "name": "Nightslayer Belt",
     "link": "https://classicdb.ch/?item=16827",
+    "quality": "purple",
     "aep": 51,
     "maep": 32,
     "loc": "MC",
@@ -3852,6 +4006,7 @@
   {
     "name": "Taut Dragonhide Belt",
     "link": "https://classicdb.ch/?item=19396",
+    "quality": "purple",
     "aep": 51,
     "maep": 30,
     "loc": "BWL",
@@ -3877,6 +4032,7 @@
   {
     "name": "Mugger's Belt",
     "link": "https://classicdb.ch/?item=18505",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 30,
     "loc": "DM-N",
@@ -3902,6 +4058,7 @@
   {
     "name": "Belt of Preserved Heads",
     "link": "https://classicdb.ch/?item=20216",
+    "quality": "rgb(51, 102, 255)",
     "aep": 42,
     "maep": 30,
     "loc": "ZG",
@@ -3927,6 +4084,7 @@
   {
     "name": "Molten Belt",
     "link": "https://classicdb.ch/?item=19163",
+    "quality": "purple",
     "aep": 46,
     "maep": 28,
     "loc": "LW",
@@ -3952,6 +4110,7 @@
   {
     "name": "Highlander's Leather Girdle (58)",
     "link": "https://classicdb.ch/?item=20045",
+    "quality": "rgb(51, 102, 255)",
     "aep": 36,
     "maep": 27,
     "loc": "AB",
@@ -3977,6 +4136,7 @@
   {
     "name": "Defiler's Leather Girdle (58)",
     "link": "https://classicdb.ch/?item=20190",
+    "quality": "rgb(51, 102, 255)",
     "aep": 36,
     "maep": 27,
     "loc": "AB",
@@ -4002,6 +4162,7 @@
   {
     "name": "Thick Qirajihide Belt",
     "link": "https://classicdb.ch/?item=21675",
+    "quality": "purple",
     "aep": 49,
     "maep": 22,
     "loc": "AQ40",
@@ -4027,6 +4188,7 @@
   {
     "name": "Darkmantle Belt",
     "link": "https://classicdb.ch/?item=22002",
+    "quality": "rgb(51, 102, 255)",
     "aep": 36,
     "maep": 22,
     "loc": "Q",
@@ -4052,6 +4214,7 @@
   {
     "name": "Belt of the Trickster",
     "link": "https://classicdb.ch/?item=22325",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 22,
     "loc": "LBRS",
@@ -4077,6 +4240,7 @@
   {
     "name": "Cloudrunner Girdle",
     "link": "https://classicdb.ch/?item=13252",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 22,
     "loc": "LBRS",
@@ -4102,6 +4266,7 @@
   {
     "name": "Adventurer's Belt of the Tiger",
     "link": "https://classicdb.ch/?item=10259",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -4127,6 +4292,7 @@
   {
     "name": "Supreme Sash of the Tiger",
     "link": "https://classicdb.ch/?item=15434",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -4152,6 +4318,7 @@
   {
     "name": "Cadaverous Belt",
     "link": "https://classicdb.ch/?item=14636",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 20,
     "loc": "Sch",
@@ -4177,6 +4344,7 @@
   {
     "name": "Shadow Panther Hide Belt",
     "link": "https://classicdb.ch/?item=20261",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 20,
     "loc": "ZG",
@@ -4202,6 +4370,7 @@
   {
     "name": "Highlander's Leather Girdle (48)",
     "link": "https://classicdb.ch/?item=20115",
+    "quality": "rgb(51, 102, 255)",
     "aep": 27,
     "maep": 20,
     "loc": "AB",
@@ -4227,6 +4396,7 @@
   {
     "name": "Defiler's Leather Girdle (48)",
     "link": "https://classicdb.ch/?item=20193",
+    "quality": "rgb(51, 102, 255)",
     "aep": 27,
     "maep": 20,
     "loc": "AB",
@@ -4252,6 +4422,7 @@
   {
     "name": "Girdle of Beastial Fury",
     "link": "https://classicdb.ch/?item=11686",
+    "quality": "rgb(51, 102, 255)",
     "aep": 30,
     "maep": 19,
     "loc": "BRD",
@@ -4277,6 +4448,7 @@
   {
     "name": "Serpentine Sash",
     "link": "https://classicdb.ch/?item=13118",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 19,
     "loc": "R",
@@ -4302,6 +4474,7 @@
   {
     "name": "Shadowcraft Belt",
     "link": "https://classicdb.ch/?item=16713",
+    "quality": "rgb(51, 102, 255)",
     "aep": 29,
     "maep": 19,
     "loc": "LBRS",
@@ -4327,6 +4500,7 @@
   {
     "name": "Frostbite Girdle",
     "link": "https://classicdb.ch/?item=14502",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 18,
     "loc": "Sch",
@@ -4352,6 +4526,7 @@
   {
     "name": "Abyssal Leather Belt of Striking",
     "link": "https://classicdb.ch/?item=20667",
+    "quality": "green",
     "aep": 28,
     "maep": 17,
     "loc": "Sil",
@@ -4377,6 +4552,7 @@
   {
     "name": "Stormpike Leather Girdle",
     "link": "https://classicdb.ch/?item=19093",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 16,
     "loc": "AV",
@@ -4402,6 +4578,7 @@
   {
     "name": "Frostwolf Leather Belt",
     "link": "https://classicdb.ch/?item=19089",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 16,
     "loc": "AV",
@@ -4427,6 +4604,7 @@
   {
     "name": "Highlander's Leather Girdle (38)",
     "link": "https://classicdb.ch/?item=20116",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 15,
     "loc": "AB",
@@ -4452,6 +4630,7 @@
   {
     "name": "Defiler's Leather Girdle (38)",
     "link": "https://classicdb.ch/?item=20192",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 15,
     "loc": "AB",
@@ -4477,6 +4656,7 @@
   {
     "name": "Vosh'gajin's Strand",
     "link": "https://classicdb.ch/?item=13962",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 15,
     "loc": "BRD",
@@ -4502,6 +4682,7 @@
   {
     "name": "Wicked Leather Belt",
     "link": "https://classicdb.ch/?item=15088",
+    "quality": "green",
     "aep": 28,
     "maep": 14,
     "loc": "LW",
@@ -4527,6 +4708,7 @@
   {
     "name": "Hyena Hide Belt",
     "link": "https://classicdb.ch/?item=18451",
+    "quality": "green",
     "aep": 28,
     "maep": 14,
     "loc": "DM-N",
@@ -4552,6 +4734,7 @@
   {
     "name": "Pridelord Girdle",
     "link": "https://classicdb.ch/?item=14674",
+    "quality": "green",
     "aep": 23,
     "maep": 14,
     "loc": "R",
@@ -4577,6 +4760,7 @@
   {
     "name": "Ogron's Sash",
     "link": "https://classicdb.ch/?item=13117",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 14,
     "loc": "R",
@@ -4602,6 +4786,7 @@
   {
     "name": "Bonescythe Legplates",
     "link": "https://classicdb.ch/?item=22477",
+    "quality": "purple",
     "aep": 92,
     "maep": 65,
     "loc": "Naxx",
@@ -4627,6 +4812,7 @@
   {
     "name": "Leggings of Apocalypse",
     "link": "https://classicdb.ch/?item=23071",
+    "quality": "purple",
     "aep": 84,
     "maep": 59,
     "loc": "Naxx",
@@ -4652,6 +4838,7 @@
   {
     "name": "Deathdealer's Leggings",
     "link": "https://classicdb.ch/?item=21362",
+    "quality": "purple",
     "aep": 84,
     "maep": 57,
     "loc": "AQ40",
@@ -4677,6 +4864,7 @@
   {
     "name": "Bloodfang Pants",
     "link": "https://classicdb.ch/?item=16909",
+    "quality": "purple",
     "aep": 73,
     "maep": 53,
     "loc": "MC",
@@ -4702,6 +4890,7 @@
   {
     "name": "Marshal's Leather Leggings",
     "link": "https://classicdb.ch/?item=16456",
+    "quality": "purple",
     "aep": 81,
     "maep": 53,
     "loc": "PVP",
@@ -4727,6 +4916,7 @@
   {
     "name": "General's Leather Legguards",
     "link": "https://classicdb.ch/?item=16564",
+    "quality": "purple",
     "aep": 81,
     "maep": 53,
     "loc": "PVP",
@@ -4752,6 +4942,7 @@
   {
     "name": "Nightslayer Pants",
     "link": "https://classicdb.ch/?item=16822",
+    "quality": "purple",
     "aep": 66,
     "maep": 48,
     "loc": "MC",
@@ -4777,6 +4968,7 @@
   {
     "name": "Dark Heart Pants",
     "link": "https://classicdb.ch/?item=20627",
+    "quality": "purple",
     "aep": 67,
     "maep": 44,
     "loc": "4D",
@@ -4802,6 +4994,7 @@
   {
     "name": "Sentinel's Leather Pants",
     "link": "https://classicdb.ch/?item=22749",
+    "quality": "purple",
     "aep": 67,
     "maep": 39,
     "loc": "WSG",
@@ -4827,6 +5020,7 @@
   {
     "name": "Outrider's Leather Pants",
     "link": "https://classicdb.ch/?item=22740",
+    "quality": "purple",
     "aep": 67,
     "maep": 39,
     "loc": "WSG",
@@ -4852,6 +5046,7 @@
   {
     "name": "Plaguehound Leggings",
     "link": "https://classicdb.ch/?item=18736",
+    "quality": "rgb(51, 102, 255)",
     "aep": 45,
     "maep": 38,
     "loc": "Str",
@@ -4877,6 +5072,7 @@
   {
     "name": "Blooddrenched Leggings",
     "link": "https://classicdb.ch/?item=19889",
+    "quality": "rgb(51, 102, 255)",
     "aep": 52,
     "maep": 35,
     "loc": "ZG",
@@ -4902,6 +5098,7 @@
   {
     "name": "Knight-Capt. Leather Legs (60)",
     "link": "https://classicdb.ch/?item=23299",
+    "quality": "rgb(51, 102, 255)",
     "aep": 59,
     "maep": 35,
     "loc": "PVP",
@@ -4927,6 +5124,7 @@
   {
     "name": "Legionnaire's Leather Legguards",
     "link": "https://classicdb.ch/?item=16508",
+    "quality": "rgb(51, 102, 255)",
     "aep": 59,
     "maep": 35,
     "loc": "PVP",
@@ -4952,6 +5150,7 @@
   {
     "name": "Devilsaur Leggings",
     "link": "https://classicdb.ch/?item=15062",
+    "quality": "rgb(51, 102, 255)",
     "aep": 46,
     "maep": 33,
     "loc": "LW",
@@ -4977,6 +5176,7 @@
   {
     "name": "Darkmantle Pants",
     "link": "https://classicdb.ch/?item=22007",
+    "quality": "rgb(51, 102, 255)",
     "aep": 49,
     "maep": 33,
     "loc": "Q",
@@ -5002,6 +5202,7 @@
   {
     "name": "Abyssal Leather Leg. of Striking",
     "link": "https://classicdb.ch/?item=20665",
+    "quality": "rgb(51, 102, 255)",
     "aep": 49,
     "maep": 33,
     "loc": "Sil",
@@ -5027,6 +5228,7 @@
   {
     "name": "Shadowcraft Pants",
     "link": "https://classicdb.ch/?item=16709",
+    "quality": "rgb(51, 102, 255)",
     "aep": 45,
     "maep": 31,
     "loc": "Str",
@@ -5052,6 +5254,7 @@
   {
     "name": "Adv. Legguards of the Tiger",
     "link": "https://classicdb.ch/?item=10262",
+    "quality": "green",
     "aep": 30,
     "maep": 29,
     "loc": "R",
@@ -5077,6 +5280,7 @@
   {
     "name": "Mighty Leggings of the Tiger",
     "link": "https://classicdb.ch/?item=10152",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "R",
@@ -5102,6 +5306,7 @@
   {
     "name": "Supreme Leggings of the Tiger",
     "link": "https://classicdb.ch/?item=15440",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "R",
@@ -5127,6 +5332,7 @@
   {
     "name": "Nightsh. Leggings of the Tiger",
     "link": "https://classicdb.ch/?item=10227",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "R",
@@ -5152,6 +5358,7 @@
   {
     "name": "Grand Legguards of the Tiger",
     "link": "https://classicdb.ch/?item=15194",
+    "quality": "green",
     "aep": 28,
     "maep": 27,
     "loc": "R",
@@ -5177,6 +5384,7 @@
   {
     "name": "Cadaverous Leggings",
     "link": "https://classicdb.ch/?item=14638",
+    "quality": "rgb(51, 102, 255)",
     "aep": 46,
     "maep": 26,
     "loc": "Sch",
@@ -5202,6 +5410,7 @@
   {
     "name": "Pridelord Pants",
     "link": "https://classicdb.ch/?item=14677",
+    "quality": "green",
     "aep": 30,
     "maep": 25,
     "loc": "R",
@@ -5227,6 +5436,7 @@
   {
     "name": "Knight-Capt. Leather Legs (58)",
     "link": "https://classicdb.ch/?item=16419",
+    "quality": "rgb(51, 102, 255)",
     "aep": 38,
     "maep": 24,
     "loc": "PVP",
@@ -5252,6 +5462,7 @@
   {
     "name": "Legionnaire's Leather Leggings",
     "link": "https://classicdb.ch/?item=16508",
+    "quality": "rgb(51, 102, 255)",
     "aep": 38,
     "maep": 24,
     "loc": "PVP",
@@ -5277,6 +5488,7 @@
   {
     "name": "Blademaster Leggings",
     "link": "https://classicdb.ch/?item=12963",
+    "quality": "rgb(51, 102, 255)",
     "aep": 30,
     "maep": 23,
     "loc": "UBRS",
@@ -5302,6 +5514,7 @@
   {
     "name": "Serpentskin Leggings",
     "link": "https://classicdb.ch/?item=8262",
+    "quality": "green",
     "aep": 29,
     "maep": 23,
     "loc": "R",
@@ -5327,6 +5540,7 @@
   {
     "name": "Jadefire Pants of the Tiger",
     "link": "https://classicdb.ch/?item=15394",
+    "quality": "green",
     "aep": 24,
     "maep": 23,
     "loc": "R",
@@ -5352,6 +5566,7 @@
   {
     "name": "Righteous Leggings of the Tiger",
     "link": "https://classicdb.ch/?item=10074",
+    "quality": "green",
     "aep": 24,
     "maep": 23,
     "loc": "R",
@@ -5377,6 +5592,7 @@
   {
     "name": "Basilisk Hide Pants",
     "link": "https://classicdb.ch/?item=1718",
+    "quality": "rgb(51, 102, 255)",
     "aep": 30,
     "maep": 21,
     "loc": "R",
@@ -5402,6 +5618,7 @@
   {
     "name": "Stormshroud Pants",
     "link": "https://classicdb.ch/?item=15057",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 20,
     "loc": "LW",
@@ -5427,6 +5644,7 @@
   {
     "name": "Triprunner Dungarees",
     "link": "https://classicdb.ch/?item=9624",
+    "quality": "rgb(51, 102, 255)",
     "aep": 27,
     "maep": 20,
     "loc": "Gno",
@@ -5452,6 +5670,7 @@
   {
     "name": "Wildheart Kilt",
     "link": "https://classicdb.ch/?item=16719",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 19,
     "loc": "Str",
@@ -5477,6 +5696,7 @@
   {
     "name": "Polar Leggings",
     "link": "https://classicdb.ch/?item=22701",
+    "quality": "purple",
     "aep": 49,
     "maep": 16,
     "loc": "Naxx",
@@ -5502,6 +5722,7 @@
   {
     "name": "Warbear Woolies",
     "link": "https://classicdb.ch/?item=15065",
+    "quality": "rgb(51, 102, 255)",
     "aep": 27,
     "maep": 14,
     "loc": "LW",
@@ -5527,6 +5748,7 @@
   {
     "name": "Bonescythe Sabatons",
     "link": "https://classicdb.ch/?item=22480",
+    "quality": "purple",
     "aep": 69,
     "maep": 50,
     "loc": "Naxx",
@@ -5552,6 +5774,7 @@
   {
     "name": "Deathdealer's Boots",
     "link": "https://classicdb.ch/?item=21359",
+    "quality": "purple",
     "aep": 59,
     "maep": 41,
     "loc": "AQ40",
@@ -5577,6 +5800,7 @@
   {
     "name": "Boots of the Shadow Flame",
     "link": "https://classicdb.ch/?item=19381",
+    "quality": "purple",
     "aep": 62,
     "maep": 38,
     "loc": "BWL",
@@ -5602,6 +5826,7 @@
   {
     "name": "Boots of Displacement",
     "link": "https://classicdb.ch/?item=23073",
+    "quality": "purple",
     "aep": 59,
     "maep": 34,
     "loc": "Naxx",
@@ -5627,6 +5852,7 @@
   {
     "name": "Boots of the Vanguard",
     "link": "https://classicdb.ch/?item=21493",
+    "quality": "purple",
     "aep": 45,
     "maep": 33,
     "loc": "AQ20",
@@ -5652,6 +5878,7 @@
   {
     "name": "Blooddrenched Footpads",
     "link": "https://classicdb.ch/?item=19906",
+    "quality": "rgb(51, 102, 255)",
     "aep": 40,
     "maep": 29,
     "loc": "ZG",
@@ -5677,6 +5904,7 @@
   {
     "name": "Bloodfang Boots",
     "link": "https://classicdb.ch/?item=16906",
+    "quality": "purple",
     "aep": 51,
     "maep": 28,
     "loc": "BWL",
@@ -5702,6 +5930,7 @@
   {
     "name": "Highlander's Leather Boots (58)",
     "link": "https://classicdb.ch/?item=20052",
+    "quality": "rgb(51, 102, 255)",
     "aep": 45,
     "maep": 27,
     "loc": "AB",
@@ -5727,6 +5956,7 @@
   {
     "name": "Defiler's Leather Boots (58)",
     "link": "https://classicdb.ch/?item=20186",
+    "quality": "rgb(51, 102, 255)",
     "aep": 45,
     "maep": 27,
     "loc": "AB",
@@ -5752,6 +5982,7 @@
   {
     "name": "Nightslayer Boots",
     "link": "https://classicdb.ch/?item=16824",
+    "quality": "purple",
     "aep": 46,
     "maep": 26,
     "loc": "MC",
@@ -5777,6 +6008,7 @@
   {
     "name": "Darkmantle Boots",
     "link": "https://classicdb.ch/?item=22003",
+    "quality": "purple",
     "aep": 38,
     "maep": 25,
     "loc": "Q",
@@ -5802,6 +6034,7 @@
   {
     "name": "Highlander's Leather Boots (48)",
     "link": "https://classicdb.ch/?item=20112",
+    "quality": "rgb(51, 102, 255)",
     "aep": 38,
     "maep": 24,
     "loc": "AB",
@@ -5827,6 +6060,7 @@
   {
     "name": "Defiler's Leather Boots (48)",
     "link": "https://classicdb.ch/?item=20189",
+    "quality": "rgb(51, 102, 255)",
     "aep": 38,
     "maep": 24,
     "loc": "AB",
@@ -5852,6 +6086,7 @@
   {
     "name": "Drudge Boots",
     "link": "https://classicdb.ch/?item=21532",
+    "quality": "purple",
     "aep": 47,
     "maep": 24,
     "loc": "MG",
@@ -5877,6 +6112,7 @@
   {
     "name": "Dunestalker's Boots",
     "link": "https://classicdb.ch/?item=20715",
+    "quality": "rgb(51, 102, 255)",
     "aep": 35,
     "maep": 24,
     "loc": "Sil",
@@ -5902,6 +6138,7 @@
   {
     "name": "Marshal's Leather Footguards",
     "link": "https://classicdb.ch/?item=16446",
+    "quality": "purple",
     "aep": 52,
     "maep": 23,
     "loc": "PVP",
@@ -5927,6 +6164,7 @@
   {
     "name": "General's Leather Treads",
     "link": "https://classicdb.ch/?item=16558",
+    "quality": "purple",
     "aep": 52,
     "maep": 23,
     "loc": "PVP",
@@ -5952,6 +6190,7 @@
   {
     "name": "Mongoose Boots",
     "link": "https://classicdb.ch/?item=18506",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 23,
     "loc": "LW",
@@ -5977,6 +6216,7 @@
   {
     "name": "Swiftwalker Boots",
     "link": "https://classicdb.ch/?item=12553",
+    "quality": "rgb(51, 102, 255)",
     "aep": 31,
     "maep": 23,
     "loc": "BRD",
@@ -6002,6 +6242,7 @@
   {
     "name": "Hive Tunneler's Boots",
     "link": "https://classicdb.ch/?item=21645",
+    "quality": "purple",
     "aep": 54,
     "maep": 23,
     "loc": "AQ40",
@@ -6027,6 +6268,7 @@
   {
     "name": "Shadowcraft Boots",
     "link": "https://classicdb.ch/?item=16711",
+    "quality": "rgb(51, 102, 255)",
     "aep": 31,
     "maep": 21,
     "loc": "Sch",
@@ -6052,6 +6294,7 @@
   {
     "name": "Supreme Shoes of the Tiger",
     "link": "https://classicdb.ch/?item=15435",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -6077,6 +6320,7 @@
   {
     "name": "Adventurer's Boots of the Tiger",
     "link": "https://classicdb.ch/?item=10257",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -6102,6 +6346,7 @@
   {
     "name": "Mighty Boots of the Tiger",
     "link": "https://classicdb.ch/?item=10146",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -6127,6 +6372,7 @@
   {
     "name": "Swiftfoot Treads",
     "link": "https://classicdb.ch/?item=15861",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "UBRS",
@@ -6152,6 +6398,7 @@
   {
     "name": "Pads of the Dread Wolf",
     "link": "https://classicdb.ch/?item=13210",
+    "quality": "rgb(51, 102, 255)",
     "aep": 35,
     "maep": 20,
     "loc": "LBRS",
@@ -6177,6 +6424,7 @@
   {
     "name": "Albino Crocscale Boots",
     "link": "https://classicdb.ch/?item=17728",
+    "quality": "rgb(51, 102, 255)",
     "aep": 27,
     "maep": 20,
     "loc": "Mar",
@@ -6202,6 +6450,7 @@
   {
     "name": "Boots of Ferocity",
     "link": "https://classicdb.ch/?item=22472",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 20,
     "loc": "DM-E",
@@ -6227,6 +6476,7 @@
   {
     "name": "Whisperwalk Boots",
     "link": "https://classicdb.ch/?item=20255",
+    "quality": "rgb(51, 102, 255)",
     "aep": 26,
     "maep": 19,
     "loc": "ToAH",
@@ -6252,6 +6502,7 @@
   {
     "name": "Highlander's Leather Boots (38)",
     "link": "https://classicdb.ch/?item=20113",
+    "quality": "rgb(51, 102, 255)",
     "aep": 29,
     "maep": 18,
     "loc": "AB",
@@ -6277,6 +6528,7 @@
   {
     "name": "Defiler's Leather Boots (38)",
     "link": "https://classicdb.ch/?item=20187",
+    "quality": "rgb(51, 102, 255)",
     "aep": 29,
     "maep": 18,
     "loc": "AB",
@@ -6302,6 +6554,7 @@
   {
     "name": "Shadefiend Boots",
     "link": "https://classicdb.ch/?item=11675",
+    "quality": "rgb(51, 102, 255)",
     "aep": 30,
     "maep": 16,
     "loc": "BRD",
@@ -6327,6 +6580,7 @@
   {
     "name": "Abyssal Leather Boots of Striking",
     "link": "https://classicdb.ch/?item=20658",
+    "quality": "green",
     "aep": 27,
     "maep": 16,
     "loc": "Sil",
@@ -6352,6 +6606,7 @@
   {
     "name": "Knight-Lt.'s Leather Walkers",
     "link": "https://classicdb.ch/?item=23285",
+    "quality": "rgb(51, 102, 255)",
     "aep": 37,
     "maep": 15,
     "loc": "PVP",
@@ -6377,6 +6632,7 @@
   {
     "name": "Blood Guard's Leather Walkers",
     "link": "https://classicdb.ch/?item=22856",
+    "quality": "rgb(51, 102, 255)",
     "aep": 37,
     "maep": 15,
     "loc": "PVP",
@@ -6402,6 +6658,7 @@
   {
     "name": "Defiler's Leather Boots (28)",
     "link": "https://classicdb.ch/?item=20188",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 14,
     "loc": "AB",
@@ -6427,6 +6684,7 @@
   {
     "name": "Highlander's Leather Boots (28)",
     "link": "https://classicdb.ch/?item=20114",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 14,
     "loc": "AB",
@@ -6452,6 +6710,7 @@
   {
     "name": "Corehound Boots",
     "link": "https://classicdb.ch/?item=16982",
+    "quality": "purple",
     "aep": 27,
     "maep": 13,
     "loc": "LW",
@@ -6477,6 +6736,7 @@
   {
     "name": "Ash Covered Boots",
     "link": "https://classicdb.ch/?item=18716",
+    "quality": "rgb(51, 102, 255)",
     "aep": 30,
     "maep": 13,
     "loc": "Str",
@@ -6502,6 +6762,7 @@
   {
     "name": "Swampwalker Boots",
     "link": "https://classicdb.ch/?item=2276",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 13,
     "loc": "R",
@@ -6527,6 +6788,7 @@
   {
     "name": "Cadaverous Walkers",
     "link": "https://classicdb.ch/?item=14641",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 12,
     "loc": "Sch",
@@ -6552,6 +6814,7 @@
   {
     "name": "Blood Guard's Leather Treads",
     "link": "https://classicdb.ch/?item=16498",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 12,
     "loc": "PVP",
@@ -6577,6 +6840,7 @@
   {
     "name": "Knight-Lt.'s Leather Boots",
     "link": "https://classicdb.ch/?item=16392",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 12,
     "loc": "PVP",
@@ -6602,6 +6866,7 @@
   {
     "name": "Bonescythe Bracers",
     "link": "https://classicdb.ch/?item=22483",
+    "quality": "purple",
     "aep": 51,
     "maep": 36,
     "loc": "Naxx",
@@ -6627,6 +6892,7 @@
   {
     "name": "Qiraji Execution Bracers",
     "link": "https://classicdb.ch/?item=21602",
+    "quality": "purple",
     "aep": 46,
     "maep": 31,
     "loc": "AQ40",
@@ -6652,6 +6918,7 @@
   {
     "name": "Bloodfang Bracers",
     "link": "https://classicdb.ch/?item=16911",
+    "quality": "purple",
     "aep": 44,
     "maep": 31,
     "loc": "BWL",
@@ -6677,6 +6944,7 @@
   {
     "name": "Forest Stalker's Bracers (60)",
     "link": "https://classicdb.ch/?item=19587",
+    "quality": "purple",
     "aep": 33,
     "maep": 25,
     "loc": "WSG",
@@ -6702,6 +6970,7 @@
   {
     "name": "Wristwraps of Undead Slaying",
     "link": "https://classicdb.ch/?item=23093",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 23,
     "loc": "R",
@@ -6727,6 +6996,7 @@
   {
     "name": "Bracers of the Eclipse",
     "link": "https://classicdb.ch/?item=18375",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 22,
     "loc": "DM-W",
@@ -6752,6 +7022,7 @@
   {
     "name": "Primal Batskin Bracers",
     "link": "https://classicdb.ch/?item=19687",
+    "quality": "rgb(51, 102, 255)",
     "aep": 29,
     "maep": 22,
     "loc": "LW",
@@ -6777,6 +7048,7 @@
   {
     "name": "Forest Stalker's Bracers (50)",
     "link": "https://classicdb.ch/?item=19589",
+    "quality": "purple",
     "aep": 29,
     "maep": 22,
     "loc": "WSG",
@@ -6802,6 +7074,7 @@
   {
     "name": "Nightslayer Bracelets",
     "link": "https://classicdb.ch/?item=16825",
+    "quality": "purple",
     "aep": 36,
     "maep": 20,
     "loc": "MC",
@@ -6827,6 +7100,7 @@
   {
     "name": "Bracers of Subterfuge",
     "link": "https://classicdb.ch/?item=22668",
+    "quality": "purple",
     "aep": 33,
     "maep": 20,
     "loc": "EPL",
@@ -6852,6 +7126,7 @@
   {
     "name": "Scaled Bracers of the Gorger",
     "link": "https://classicdb.ch/?item=21491",
+    "quality": "rgb(51, 102, 255)",
     "aep": 29,
     "maep": 20,
     "loc": "AQ20",
@@ -6877,6 +7152,7 @@
   {
     "name": "Zandalar Madcap's Bracers",
     "link": "https://classicdb.ch/?item=19836",
+    "quality": "purple",
     "aep": 33,
     "maep": 19,
     "loc": "ZG",
@@ -6902,6 +7178,7 @@
   {
     "name": "Darkmantle Bracers",
     "link": "https://classicdb.ch/?item=22004",
+    "quality": "rgb(51, 102, 255)",
     "aep": 26,
     "maep": 19,
     "loc": "Q",
@@ -6927,6 +7204,7 @@
   {
     "name": "Abyssal Leather Bracers of Stri.",
     "link": "https://classicdb.ch/?item=20681",
+    "quality": "rgb(51, 102, 255)",
     "aep": 31,
     "maep": 18,
     "loc": "Sil",
@@ -6952,6 +7230,7 @@
   {
     "name": "Forest Stalker's Bracers (40)",
     "link": "https://classicdb.ch/?item=19590",
+    "quality": "purple",
     "aep": 25,
     "maep": 18,
     "loc": "WSG",
@@ -6977,6 +7256,7 @@
   {
     "name": "Deepfury Bracers",
     "link": "https://classicdb.ch/?item=13120",
+    "quality": "rgb(51, 102, 255)",
     "aep": 22,
     "maep": 17,
     "loc": "R",
@@ -7002,6 +7282,7 @@
   {
     "name": "Dragonspur Wraps",
     "link": "https://classicdb.ch/?item=20615",
+    "quality": "purple",
     "aep": 36,
     "maep": 16,
     "loc": "4D",
@@ -7027,6 +7308,7 @@
   {
     "name": "Cinderhide Armsplints of the Tiger",
     "link": "https://classicdb.ch/?item=11764",
+    "quality": "rgb(51, 102, 255)",
     "aep": 17,
     "maep": 15,
     "loc": "BRD",
@@ -7052,6 +7334,7 @@
   {
     "name": "Shadowcraft Bracers",
     "link": "https://classicdb.ch/?item=16710",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 15,
     "loc": "Sch",
@@ -7077,6 +7360,7 @@
   {
     "name": "Darkwater Bracers of the Tiger",
     "link": "https://classicdb.ch/?item=10800",
+    "quality": "rgb(51, 102, 255)",
     "aep": 16,
     "maep": 15,
     "loc": "ToAH",
@@ -7102,6 +7386,7 @@
   {
     "name": "Adv. Bracers of the Tiger",
     "link": "https://classicdb.ch/?item=10256",
+    "quality": "green",
     "aep": 16,
     "maep": 15,
     "loc": "R",
@@ -7127,6 +7412,7 @@
   {
     "name": "Mighty Armsplints of the Tiger",
     "link": "https://classicdb.ch/?item=10147",
+    "quality": "green",
     "aep": 16,
     "maep": 15,
     "loc": "R",
@@ -7152,6 +7438,7 @@
   {
     "name": "Supreme Bracers of the Tiger",
     "link": "https://classicdb.ch/?item=15436",
+    "quality": "green",
     "aep": 16,
     "maep": 15,
     "loc": "R",
@@ -7177,6 +7464,7 @@
   {
     "name": "Nghtsh. Armguards of the Tiger",
     "link": "https://classicdb.ch/?item=10223",
+    "quality": "green",
     "aep": 16,
     "maep": 15,
     "loc": "R",
@@ -7202,6 +7490,7 @@
   {
     "name": "Wanderer's Bracers of the Tiger",
     "link": "https://classicdb.ch/?item=10107",
+    "quality": "green",
     "aep": 14,
     "maep": 14,
     "loc": "R",
@@ -7227,6 +7516,7 @@
   {
     "name": "Unearthed Bands of the Tiger",
     "link": "https://classicdb.ch/?item=9428",
+    "quality": "rgb(51, 102, 255)",
     "aep": 13,
     "maep": 13,
     "loc": "Uld",
@@ -7252,6 +7542,7 @@
   {
     "name": "Pridelord Bands",
     "link": "https://classicdb.ch/?item=14672",
+    "quality": "green",
     "aep": 16,
     "maep": 13,
     "loc": "R",
@@ -7277,6 +7568,7 @@
   {
     "name": "Polar Bracers",
     "link": "https://classicdb.ch/?item=22663",
+    "quality": "purple",
     "aep": 35,
     "maep": 13,
     "loc": "Naxx",
@@ -7302,6 +7594,7 @@
   {
     "name": "Wristguards of Stability",
     "link": "https://classicdb.ch/?item=19146",
+    "quality": "purple",
     "aep": 21,
     "maep": 12,
     "loc": "MC",
@@ -7327,6 +7620,7 @@
   {
     "name": "Yeti Hide Bracers",
     "link": "https://classicdb.ch/?item=19113",
+    "quality": "rgb(51, 102, 255)",
     "aep": 26,
     "maep": 12,
     "loc": "AV",
@@ -7352,6 +7646,7 @@
   {
     "name": "Traveler's Bracers",
     "link": "https://classicdb.ch/?item=8295",
+    "quality": "green",
     "aep": 18,
     "maep": 11,
     "loc": "R",
@@ -7377,6 +7672,7 @@
   {
     "name": "Wicked Leather Bracers",
     "link": "https://classicdb.ch/?item=15084",
+    "quality": "green",
     "aep": 17,
     "maep": 11,
     "loc": "LW",
@@ -7402,6 +7698,7 @@
   {
     "name": "Blackmist Armguards",
     "link": "https://classicdb.ch/?item=12966",
+    "quality": "rgb(51, 102, 255)",
     "aep": 22,
     "maep": 8,
     "loc": "UBRS",
@@ -7427,6 +7724,7 @@
   {
     "name": "First Sgt. Leather Armguards (58)",
     "link": "https://classicdb.ch/?item=16497",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 7,
     "loc": "PVP",
@@ -7452,6 +7750,7 @@
   {
     "name": "Sgt. Mjr Leather Armsplints (58)",
     "link": "https://classicdb.ch/?item=18452",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 7,
     "loc": "PVP",
@@ -7477,6 +7776,7 @@
   {
     "name": "Malefic Bracers",
     "link": "https://classicdb.ch/?item=18700",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 7,
     "loc": "Sch",
@@ -7502,6 +7802,7 @@
   {
     "name": "Bonescythe Guantlets",
     "link": "https://classicdb.ch/?item=22481",
+    "quality": "purple",
     "aep": 72,
     "maep": 51,
     "loc": "Naxx",
@@ -7527,6 +7828,7 @@
   {
     "name": "Gloves of Enforcement",
     "link": "https://classicdb.ch/?item=21672",
+    "quality": "purple",
     "aep": 49,
     "maep": 42,
     "loc": "AQ40",
@@ -7552,6 +7854,7 @@
   {
     "name": "Aged Core Leather Gloves",
     "link": "https://classicdb.ch/?item=18823",
+    "quality": "purple",
     "aep": 40,
     "maep": 38,
     "loc": "MC",
@@ -7577,6 +7880,7 @@
   {
     "name": "Doomhide Gauntlets",
     "link": "https://classicdb.ch/?item=18544",
+    "quality": "purple",
     "aep": 52,
     "maep": 35,
     "loc": "BL",
@@ -7602,6 +7906,7 @@
   {
     "name": "Gloves of Holy Might (vs Undead)",
     "link": "https://classicdb.ch/?item=867",
+    "quality": "purple",
     "aep": 36,
     "maep": 35,
     "loc": "R",
@@ -7627,6 +7932,7 @@
   {
     "name": "Nightslayer Gloves",
     "link": "https://classicdb.ch/?item=16826",
+    "quality": "purple",
     "aep": 50,
     "maep": 32,
     "loc": "MC",
@@ -7652,6 +7958,7 @@
   {
     "name": "Bloodfang Gloves",
     "link": "https://classicdb.ch/?item=16907",
+    "quality": "purple",
     "aep": 62,
     "maep": 31,
     "loc": "BWL",
@@ -7677,6 +7984,7 @@
   {
     "name": "Gloves of the Hidden Temple",
     "link": "https://classicdb.ch/?item=21605",
+    "quality": "purple",
     "aep": 55,
     "maep": 31,
     "loc": "AQ40",
@@ -7702,6 +8010,7 @@
   {
     "name": "Marshal's Leather Handgrips",
     "link": "https://classicdb.ch/?item=16454",
+    "quality": "purple",
     "aep": 55,
     "maep": 30,
     "loc": "PVP",
@@ -7727,6 +8036,7 @@
   {
     "name": "General's Leather Mitts",
     "link": "https://classicdb.ch/?item=16560",
+    "quality": "purple",
     "aep": 55,
     "maep": 30,
     "loc": "PVP",
@@ -7752,6 +8062,7 @@
   {
     "name": "Handwraps of Undead Slaying",
     "link": "https://classicdb.ch/?item=23081",
+    "quality": "rgb(51, 102, 255)",
     "aep": 46,
     "maep": 30,
     "loc": "R",
@@ -7777,6 +8088,7 @@
   {
     "name": "Darkmantle Gloves",
     "link": "https://classicdb.ch/?item=22006",
+    "quality": "purple",
     "aep": 38,
     "maep": 28,
     "loc": "Q",
@@ -7802,6 +8114,7 @@
   {
     "name": "Blooddrenched Grips",
     "link": "https://classicdb.ch/?item=19869",
+    "quality": "rgb(51, 102, 255)",
     "aep": 44,
     "maep": 27,
     "loc": "ZG",
@@ -7827,6 +8140,7 @@
   {
     "name": "Blood Guard's Leather Vices",
     "link": "https://classicdb.ch/?item=16499",
+    "quality": "rgb(51, 102, 255)",
     "aep": 42,
     "maep": 26,
     "loc": "PVP",
@@ -7852,6 +8166,7 @@
   {
     "name": "Knight-Lt.'s Leather Guantlets",
     "link": "https://classicdb.ch/?item=16396",
+    "quality": "rgb(51, 102, 255)",
     "aep": 42,
     "maep": 26,
     "loc": "PVP",
@@ -7877,6 +8192,7 @@
   {
     "name": "Primal Batskin Gloves",
     "link": "https://classicdb.ch/?item=19686",
+    "quality": "rgb(51, 102, 255)",
     "aep": 35,
     "maep": 25,
     "loc": "LW",
@@ -7902,6 +8218,7 @@
   {
     "name": "Devilsaur Gauntlets",
     "link": "https://classicdb.ch/?item=15063",
+    "quality": "rgb(51, 102, 255)",
     "aep": 34,
     "maep": 24,
     "loc": "LW",
@@ -7927,6 +8244,7 @@
   {
     "name": "Slaghide Gauntlets of the Tiger",
     "link": "https://classicdb.ch/?item=13258",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 23,
     "loc": "LBRS",
@@ -7952,6 +8270,7 @@
   {
     "name": "Bile-Covered Gauntlets",
     "link": "https://classicdb.ch/?item=21682",
+    "quality": "purple",
     "aep": 47,
     "maep": 23,
     "loc": "AQ40",
@@ -7977,6 +8296,7 @@
   {
     "name": "Cadaverous Gloves",
     "link": "https://classicdb.ch/?item=14640",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 22,
     "loc": "Sch",
@@ -8002,6 +8322,7 @@
   {
     "name": "Adv. Gloves of the Tiger",
     "link": "https://classicdb.ch/?item=10260",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -8027,6 +8348,7 @@
   {
     "name": "Supreme Gloves of the Tiger",
     "link": "https://classicdb.ch/?item=15438",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -8052,6 +8374,7 @@
   {
     "name": "Mighty Gauntlets of the Tiger",
     "link": "https://classicdb.ch/?item=10149",
+    "quality": "green",
     "aep": 22,
     "maep": 21,
     "loc": "R",
@@ -8077,6 +8400,7 @@
   {
     "name": "Toughened Silithid Hide Gloves",
     "link": "https://classicdb.ch/?item=21501",
+    "quality": "rgb(51, 102, 255)",
     "aep": 40,
     "maep": 21,
     "loc": "AQ20",
@@ -8102,6 +8426,7 @@
   {
     "name": "Knight-Lt.'s Leather Grips",
     "link": "https://classicdb.ch/?item=23284",
+    "quality": "rgb(51, 102, 255)",
     "aep": 40,
     "maep": 20,
     "loc": "PVP",
@@ -8127,6 +8452,7 @@
   {
     "name": "Blood Guard's Leather Grips",
     "link": "https://classicdb.ch/?item=22864",
+    "quality": "rgb(51, 102, 255)",
     "aep": 40,
     "maep": 20,
     "loc": "PVP",
@@ -8152,6 +8478,7 @@
   {
     "name": "Gargoyle Slashers",
     "link": "https://classicdb.ch/?item=13957",
+    "quality": "rgb(51, 102, 255)",
     "aep": 33,
     "maep": 20,
     "loc": "Sch",
@@ -8177,6 +8504,7 @@
   {
     "name": "Skul's Fingerbone Claws",
     "link": "https://classicdb.ch/?item=13395",
+    "quality": "rgb(51, 102, 255)",
     "aep": 31,
     "maep": 20,
     "loc": "Str",
@@ -8202,6 +8530,7 @@
   {
     "name": "Gloves of Holy Might",
     "link": "https://classicdb.ch/?item=867",
+    "quality": "purple",
     "aep": 21,
     "maep": 20,
     "loc": "R",
@@ -8227,6 +8556,7 @@
   {
     "name": "Shadowcraft Gloves",
     "link": "https://classicdb.ch/?item=16712",
+    "quality": "rgb(51, 102, 255)",
     "aep": 29,
     "maep": 19,
     "loc": "LBRS",
@@ -8252,6 +8582,7 @@
   {
     "name": "Polar Gloves",
     "link": "https://classicdb.ch/?item=22662",
+    "quality": "purple",
     "aep": 40,
     "maep": 19,
     "loc": "Naxx",
@@ -8277,6 +8608,7 @@
   {
     "name": "Nightfall Gloves",
     "link": "https://classicdb.ch/?item=12114",
+    "quality": "green",
     "aep": 19,
     "maep": 18,
     "loc": "BRD",
@@ -8302,6 +8634,7 @@
   {
     "name": "Praetorian Gloves of the Tiger",
     "link": "https://classicdb.ch/?item=15184",
+    "quality": "green",
     "aep": 19,
     "maep": 18,
     "loc": "R",
@@ -8327,6 +8660,7 @@
   {
     "name": "Shadow Panther Hide Gloves",
     "link": "https://classicdb.ch/?item=20259",
+    "quality": "rgb(51, 102, 255)",
     "aep": 29,
     "maep": 18,
     "loc": "ZG",
@@ -8352,6 +8686,7 @@
   {
     "name": "Stormshroud Gloves",
     "link": "https://classicdb.ch/?item=21278",
+    "quality": "rgb(51, 102, 255)",
     "aep": 19,
     "maep": 18,
     "loc": "LW",
@@ -8377,6 +8712,7 @@
   {
     "name": "Blight Leather Gloves",
     "link": "https://classicdb.ch/?item=15708",
+    "quality": "green",
     "aep": 26,
     "maep": 17,
     "loc": "Fel",
@@ -8402,6 +8738,7 @@
   {
     "name": "Abyssal Leather Gloves of Striking",
     "link": "https://classicdb.ch/?item=20661",
+    "quality": "green",
     "aep": 27,
     "maep": 16,
     "loc": "Sil",
@@ -8427,6 +8764,7 @@
   {
     "name": "Pridelord Gloves",
     "link": "https://classicdb.ch/?item=14675",
+    "quality": "green",
     "aep": 24,
     "maep": 16,
     "loc": "R",
@@ -8452,6 +8790,7 @@
   {
     "name": "Arachnid Gloves of the Tiger",
     "link": "https://classicdb.ch/?item=10777",
+    "quality": "rgb(51, 102, 255)",
     "aep": 17,
     "maep": 15,
     "loc": "RFD",
@@ -8477,6 +8816,7 @@
   {
     "name": "Plaguebat Fur Gloves",
     "link": "https://classicdb.ch/?item=18744",
+    "quality": "rgb(51, 102, 255)",
     "aep": 29,
     "maep": 13,
     "loc": "Str",
@@ -8502,6 +8842,7 @@
   {
     "name": "Quickdraw Gloves",
     "link": "https://classicdb.ch/?item=18377",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 12,
     "loc": "DM-W",
@@ -8527,6 +8868,7 @@
   {
     "name": "Stonebark Gauntlets",
     "link": "https://classicdb.ch/?item=18344",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 10,
     "loc": "DM-R",
@@ -8552,6 +8894,7 @@
   {
     "name": "Shadowskin Gloves",
     "link": "https://classicdb.ch/?item=16712",
+    "quality": "rgb(51, 102, 255)",
     "aep": 17,
     "maep": 10,
     "loc": "LW",
@@ -8577,6 +8920,7 @@
   {
     "name": "Band of Unnatural Forces",
     "link": "https://classicdb.ch/?item=23038",
+    "quality": "purple",
     "aep": 44,
     "maep": 44,
     "loc": "Naxx",
@@ -8602,6 +8946,7 @@
   {
     "name": "Bonescythe Ring",
     "link": "https://classicdb.ch/?item=23060",
+    "quality": "purple",
     "aep": 48,
     "maep": 38,
     "loc": "Naxx",
@@ -8627,6 +8972,7 @@
   {
     "name": "Band of Reanimation",
     "link": "https://classicdb.ch/?item=22961",
+    "quality": "purple",
     "aep": 34,
     "maep": 34,
     "loc": "Naxx",
@@ -8652,6 +8998,7 @@
   {
     "name": "Master Dragonslayer's Ring",
     "link": "https://classicdb.ch/?item=19384",
+    "quality": "purple",
     "aep": 46,
     "maep": 32,
     "loc": "BWL",
@@ -8677,6 +9024,7 @@
   {
     "name": "Signet Ring of the Bronze (DPS5)",
     "link": "https://classicdb.ch/?item=21205",
+    "quality": "purple",
     "aep": 45,
     "maep": 32,
     "loc": "Sil",
@@ -8702,6 +9050,7 @@
   {
     "name": "Band of Accuria",
     "link": "https://classicdb.ch/?item=17063",
+    "quality": "purple",
     "aep": 41,
     "maep": 31,
     "loc": "MC",
@@ -8727,6 +9076,7 @@
   {
     "name": "Ring of the Qiraji Fury",
     "link": "https://classicdb.ch/?item=21677",
+    "quality": "purple",
     "aep": 42,
     "maep": 30,
     "loc": "AQ40",
@@ -8752,6 +9102,7 @@
   {
     "name": "Signet Ring of the Bronze (DPS4)",
     "link": "https://classicdb.ch/?item=21204",
+    "quality": "purple",
     "aep": 41,
     "maep": 30,
     "loc": "Sil",
@@ -8777,6 +9128,7 @@
   {
     "name": "Signet Ring of the Bronze (DPS3)",
     "link": "https://classicdb.ch/?item=21203",
+    "quality": "purple",
     "aep": 40,
     "maep": 29,
     "loc": "Sil",
@@ -8802,6 +9154,7 @@
   {
     "name": "Circle of Applied Force",
     "link": "https://classicdb.ch/?item=19432",
+    "quality": "purple",
     "aep": 37,
     "maep": 28,
     "loc": "BWL",
@@ -8827,6 +9180,7 @@
   {
     "name": "Quick Strike Ring",
     "link": "https://classicdb.ch/?item=18821",
+    "quality": "purple",
     "aep": 36,
     "maep": 28,
     "loc": "MC",
@@ -8852,6 +9206,7 @@
   {
     "name": "Ring of the Godslayer",
     "link": "https://classicdb.ch/?item=21596",
+    "quality": "purple",
     "aep": 44,
     "maep": 27,
     "loc": "AQ40",
@@ -8877,6 +9232,7 @@
   {
     "name": "Signet Ring of the Bronze (DPS2)",
     "link": "https://classicdb.ch/?item=21202",
+    "quality": "purple",
     "aep": 36,
     "maep": 27,
     "loc": "Sil",
@@ -8902,6 +9258,7 @@
   {
     "name": "Don Julio's Band",
     "link": "https://classicdb.ch/?item=19325",
+    "quality": "purple",
     "aep": 37,
     "maep": 26,
     "loc": "AV",
@@ -8927,6 +9284,7 @@
   {
     "name": "Signet Ring of the Bronze (DPS1)",
     "link": "https://classicdb.ch/?item=21201",
+    "quality": "purple",
     "aep": 34,
     "maep": 26,
     "loc": "Sil",
@@ -8952,6 +9310,7 @@
   {
     "name": "Band of Veiled Shadows",
     "link": "https://classicdb.ch/?item=21405",
+    "quality": "purple",
     "aep": 32,
     "maep": 24,
     "loc": "AQ40",
@@ -8977,6 +9336,7 @@
   {
     "name": "Might of Cenarius",
     "link": "https://classicdb.ch/?item=21189",
+    "quality": "purple",
     "aep": 20,
     "maep": 24,
     "loc": "Sil",
@@ -9002,6 +9362,7 @@
   {
     "name": "Ring of Fury",
     "link": "https://classicdb.ch/?item=21477",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 23,
     "loc": "AQ20",
@@ -9027,6 +9388,7 @@
   {
     "name": "Tarnished Elven Ring",
     "link": "https://classicdb.ch/?item=18500",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 23,
     "loc": "DM-N",
@@ -9052,6 +9414,7 @@
   {
     "name": "Band of Jin",
     "link": "https://classicdb.ch/?item=19925",
+    "quality": "rgb(51, 102, 255)",
     "aep": 30,
     "maep": 22,
     "loc": "ZG",
@@ -9077,6 +9440,7 @@
   {
     "name": "Ring of the Unliving",
     "link": "https://classicdb.ch/?item=20624",
+    "quality": "purple",
     "aep": 37,
     "maep": 21,
     "loc": "4D",
@@ -9102,6 +9466,7 @@
   {
     "name": "Band of Earthen Might",
     "link": "https://classicdb.ch/?item=21182",
+    "quality": "rgb(51, 102, 255)",
     "aep": 21,
     "maep": 21,
     "loc": "Sil",
@@ -9127,6 +9492,7 @@
   {
     "name": "Seal of the Gurubashi Berserker",
     "link": "https://classicdb.ch/?item=22722",
+    "quality": "purple",
     "aep": 33,
     "maep": 20,
     "loc": "ZG",
@@ -9152,6 +9518,7 @@
   {
     "name": "Seal of Jin",
     "link": "https://classicdb.ch/?item=19898",
+    "quality": "rgb(51, 102, 255)",
     "aep": 28,
     "maep": 20,
     "loc": "ZG",
@@ -9177,6 +9544,7 @@
   {
     "name": "Painweaver Band",
     "link": "https://classicdb.ch/?item=13098",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 18,
     "loc": "UBRS",
@@ -9202,6 +9570,7 @@
   {
     "name": "Blackstone Ring",
     "link": "https://classicdb.ch/?item=17713",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 18,
     "loc": "Mar",
@@ -9227,6 +9596,7 @@
   {
     "name": "Legionnaire's Band (58)",
     "link": "https://classicdb.ch/?item=19510",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 17,
     "loc": "WSG",
@@ -9252,6 +9622,7 @@
   {
     "name": "Protector's Band (58)",
     "link": "https://classicdb.ch/?item=19514",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 17,
     "loc": "WSG",
@@ -9277,6 +9648,7 @@
   {
     "name": "Prismatic Band of the Tiger",
     "link": "https://classicdb.ch/?item=12017",
+    "quality": "green",
     "aep": 17,
     "maep": 17,
     "loc": "R",
@@ -9302,6 +9674,7 @@
   {
     "name": "Band of the Cultist",
     "link": "https://classicdb.ch/?item=20721",
+    "quality": "rgb(51, 102, 255)",
     "aep": 28,
     "maep": 16,
     "loc": "Sil",
@@ -9327,6 +9700,7 @@
   {
     "name": "Magma Forged Band",
     "link": "https://classicdb.ch/?item=22255",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 16,
     "loc": "BRD",
@@ -9352,6 +9726,7 @@
   {
     "name": "Innervating Band",
     "link": "https://classicdb.ch/?item=18701",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 15,
     "loc": "Sch",
@@ -9377,6 +9752,7 @@
   {
     "name": "Drakeclaw Band of the Tiger",
     "link": "https://classicdb.ch/?item=10795",
+    "quality": "rgb(51, 102, 255)",
     "aep": 16,
     "maep": 15,
     "loc": "ToAH",
@@ -9402,6 +9778,7 @@
   {
     "name": "Jungle Ring of the Tiger",
     "link": "https://classicdb.ch/?item=12016",
+    "quality": "green",
     "aep": 15,
     "maep": 15,
     "loc": "R",
@@ -9427,6 +9804,7 @@
   {
     "name": "Archimtiros' Ring of Reckoning",
     "link": "https://classicdb.ch/?item=19376",
+    "quality": "purple",
     "aep": 42,
     "maep": 14,
     "loc": "BWL",
@@ -9452,6 +9830,7 @@
   {
     "name": "Legionnaire's Band (48)",
     "link": "https://classicdb.ch/?item=19511",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 14,
     "loc": "BG",
@@ -9477,6 +9856,7 @@
   {
     "name": "Protector's Band (48)",
     "link": "https://classicdb.ch/?item=19516",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 14,
     "loc": "BG",
@@ -9502,6 +9882,7 @@
   {
     "name": "Magni's Will (Alliance)",
     "link": "https://classicdb.ch/?item=12548",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 13,
     "loc": "BRD",
@@ -9527,6 +9908,7 @@
   {
     "name": "Masons Fraternity Ring",
     "link": "https://classicdb.ch/?item=9533",
+    "quality": "rgb(51, 102, 255)",
     "aep": 18,
     "maep": 13,
     "loc": "ZF",
@@ -9552,6 +9934,7 @@
   {
     "name": "Overlord's Crimson Band",
     "link": "https://classicdb.ch/?item=19873",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 13,
     "loc": "ZG",
@@ -9577,6 +9960,7 @@
   {
     "name": "Myrmidon's Signet",
     "link": "https://classicdb.ch/?item=2246",
+    "quality": "purple",
     "aep": 29,
     "maep": 12,
     "loc": "R",
@@ -9602,6 +9986,7 @@
   {
     "name": "Legionnaire's Band (38)",
     "link": "https://classicdb.ch/?item=19512",
+    "quality": "rgb(51, 102, 255)",
     "aep": 17,
     "maep": 12,
     "loc": "BG",
@@ -9627,6 +10012,7 @@
   {
     "name": "Protector's Band (38)",
     "link": "https://classicdb.ch/?item=19515",
+    "quality": "rgb(51, 102, 255)",
     "aep": 17,
     "maep": 12,
     "loc": "BG",
@@ -9652,6 +10038,7 @@
   {
     "name": "Band of Vigor",
     "link": "https://classicdb.ch/?item=18302",
+    "quality": "green",
     "aep": 18,
     "maep": 11,
     "loc": "DM-E",
@@ -9677,6 +10064,7 @@
   {
     "name": "Ring of the Underwood",
     "link": "https://classicdb.ch/?item=2951",
+    "quality": "rgb(51, 102, 255)",
     "aep": 14,
     "maep": 11,
     "loc": "R",
@@ -9702,6 +10090,7 @@
   {
     "name": "Ironspine's Eye",
     "link": "https://classicdb.ch/?item=7686",
+    "quality": "rgb(51, 102, 255)",
     "aep": 11,
     "maep": 11,
     "loc": "SM",
@@ -9727,6 +10116,7 @@
   {
     "name": "Charged Gear of the Tiger",
     "link": "https://classicdb.ch/?item=9461",
+    "quality": "rgb(51, 102, 255)",
     "aep": 12,
     "maep": 11,
     "loc": "Gno",
@@ -9752,6 +10142,7 @@
   {
     "name": "Falcon's Hook",
     "link": "https://classicdb.ch/?item=7552",
+    "quality": "green",
     "aep": 11,
     "maep": 11,
     "loc": "R",
@@ -9777,6 +10168,7 @@
   {
     "name": "Band of the Penitent",
     "link": "https://classicdb.ch/?item=13217",
+    "quality": "green",
     "aep": 10,
     "maep": 10,
     "loc": "Str",
@@ -9802,6 +10194,7 @@
   {
     "name": "Mark of the Champion (vs Un/De)",
     "link": "https://classicdb.ch/?item=23206",
+    "quality": "purple",
     "aep": 75,
     "maep": 75,
     "loc": "Naxx",
@@ -9827,6 +10220,7 @@
   {
     "name": "Slayer's Crest",
     "link": "https://classicdb.ch/?item=23041",
+    "quality": "purple",
     "aep": 54,
     "maep": 54,
     "loc": "Naxx",
@@ -9852,6 +10246,7 @@
   {
     "name": "Kiss of the Spider",
     "link": "https://classicdb.ch/?item=22954",
+    "quality": "purple",
     "aep": 48,
     "maep": 48,
     "loc": "Naxx",
@@ -9877,6 +10272,7 @@
   {
     "name": "Drake Fang Talisman",
     "link": "https://classicdb.ch/?item=19406",
+    "quality": "purple",
     "aep": 46,
     "maep": 43,
     "loc": "BWL",
@@ -9902,6 +10298,7 @@
   {
     "name": "Seal of the Dawn (vs Undead)",
     "link": "https://classicdb.ch/?item=13209",
+    "quality": "rgb(51, 102, 255)",
     "aep": 41,
     "maep": 41,
     "loc": "Str",
@@ -9927,6 +10324,7 @@
   {
     "name": "Hand of Justice",
     "link": "https://classicdb.ch/?item=11815",
+    "quality": "rgb(51, 102, 255)",
     "aep": 30,
     "maep": 30,
     "loc": "BRD",
@@ -9952,6 +10350,7 @@
   {
     "name": "Jom Gabbar",
     "link": "https://classicdb.ch/?item=23570",
+    "quality": "purple",
     "aep": 30,
     "maep": 30,
     "loc": "AQ40",
@@ -9977,6 +10376,7 @@
   {
     "name": "Darkmoon Card: Maelstrom",
     "link": "https://classicdb.ch/?item=19289",
+    "quality": "purple",
     "aep": 25,
     "maep": 25,
     "loc": "DMF",
@@ -10002,6 +10402,7 @@
   {
     "name": "Earthstrike",
     "link": "https://classicdb.ch/?item=21180",
+    "quality": "purple",
     "aep": 23,
     "maep": 23,
     "loc": "Sil",
@@ -10027,6 +10428,7 @@
   {
     "name": "Blackhand's Breadth",
     "link": "https://classicdb.ch/?item=13965",
+    "quality": "rgb(51, 102, 255)",
     "aep": 20,
     "maep": 20,
     "loc": "UBRS",
@@ -10052,6 +10454,7 @@
   {
     "name": "Rune of the Guard Captain (Horde)",
     "link": "https://classicdb.ch/?item=19120",
+    "quality": "green",
     "aep": 18,
     "maep": 18,
     "loc": "Hin",
@@ -10077,6 +10480,7 @@
   {
     "name": "Royal Seal of Eldre'Thalas (Rogue)",
     "link": "https://classicdb.ch/?item=18465",
+    "quality": "rgb(51, 102, 255)",
     "aep": 16,
     "maep": 15,
     "loc": "DM-B",
@@ -10102,6 +10506,7 @@
   {
     "name": "Gnomish Death Ray (5m CD)",
     "link": "https://classicdb.ch/?item=10645",
+    "quality": "green",
     "aep": 15,
     "maep": 15,
     "loc": "Eng",
@@ -10127,6 +10532,7 @@
   {
     "name": "Heart of Wyrmthalak",
     "link": "https://classicdb.ch/?item=22321",
+    "quality": "rgb(51, 102, 255)",
     "aep": 15,
     "maep": 15,
     "loc": "LBRS",
@@ -10152,6 +10558,7 @@
   {
     "name": "Mark of the Chosen",
     "link": "https://classicdb.ch/?item=17774",
+    "quality": "green",
     "aep": 12,
     "maep": 12,
     "loc": "Mar",
@@ -10177,6 +10584,7 @@
   {
     "name": "Counterattack Lodestone",
     "link": "https://classicdb.ch/?item=18537",
+    "quality": "rgb(51, 102, 255)",
     "aep": 16,
     "maep": 11,
     "loc": "DM-N",
@@ -10202,6 +10610,7 @@
   {
     "name": "Arcanite Dragonling (1h CD)",
     "link": "https://classicdb.ch/?item=16022",
+    "quality": "rgb(51, 102, 255)",
     "aep": 10,
     "maep": 10,
     "loc": "Eng",
@@ -10227,6 +10636,7 @@
   {
     "name": "Def. of the Timbermaw (10m CD)",
     "link": "https://classicdb.ch/?item=21326",
+    "quality": "purple",
     "aep": 10,
     "maep": 10,
     "loc": "Fel",
@@ -10252,6 +10662,7 @@
   {
     "name": "Badge of the Swarmguard",
     "link": "https://classicdb.ch/?item=21670",
+    "quality": "purple",
     "aep": 10,
     "maep": 10,
     "loc": "AQ40",
@@ -10277,6 +10688,7 @@
   {
     "name": "Zandalarian Hero Medallion",
     "link": "https://classicdb.ch/?item=19949",
+    "quality": "purple",
     "aep": 10,
     "maep": 10,
     "loc": "ZG",
@@ -10302,6 +10714,7 @@
   {
     "name": "Renataki's Charm of Trickery",
     "link": "https://classicdb.ch/?item=19954",
+    "quality": "purple",
     "aep": 8,
     "maep": 8,
     "loc": "ZG",
@@ -10327,6 +10740,7 @@
   {
     "name": "Venomous Totem",
     "link": "https://classicdb.ch/?item=19342",
+    "quality": "purple",
     "aep": 6,
     "maep": 6,
     "loc": "BWL",
@@ -10352,6 +10766,7 @@
   {
     "name": "Lifestone",
     "link": "https://classicdb.ch/?item=833",
+    "quality": "purple",
     "aep": 6,
     "maep": 5,
     "loc": "R",
@@ -10377,6 +10792,7 @@
   {
     "name": "Linken's Boomerang (3m CD)",
     "link": "https://classicdb.ch/?item=11905",
+    "quality": "green",
     "aep": 5,
     "maep": 5,
     "loc": "UGC",
@@ -10402,6 +10818,7 @@
   {
     "name": "Essence of the Pure Flame",
     "link": "https://classicdb.ch/?item=18815",
+    "quality": "purple",
     "aep": 5,
     "maep": 5,
     "loc": "MC",
@@ -10427,6 +10844,7 @@
   {
     "name": "Gnomish Battle Chicken (30m CD)",
     "link": "https://classicdb.ch/?item=10725",
+    "quality": "green",
     "aep": 3,
     "maep": 3,
     "loc": "Eng",
@@ -10452,6 +10870,7 @@
   {
     "name": "Blazing Emblem",
     "link": "https://classicdb.ch/?item=2802",
+    "quality": "rgb(51, 102, 255)",
     "aep": 7,
     "maep": 1,
     "loc": "R",
@@ -10477,6 +10896,7 @@
   {
     "name": "Heart of Noxxion",
     "link": "https://classicdb.ch/?item=17744",
+    "quality": "rgb(51, 102, 255)",
     "aep": 6,
     "maep": 1,
     "loc": "Mar",
@@ -10502,6 +10922,7 @@
   {
     "name": "Glimmering Mithril Insignia (10m CD)",
     "link": "https://classicdb.ch/?item=10418",
+    "quality": "green",
     "aep": 15,
     "maep": 1,
     "loc": "BS",
@@ -10527,6 +10948,7 @@
   {
     "name": "Uther's Strength",
     "link": "https://classicdb.ch/?item=11302",
+    "quality": "rgb(51, 102, 255)",
     "aep": 5,
     "maep": 1,
     "loc": "R",
@@ -10552,6 +10974,7 @@
   {
     "name": "Nifty Stopwatch (30m CD)",
     "link": "https://classicdb.ch/?item=2820",
+    "quality": "green",
     "aep": 5,
     "maep": 1,
     "loc": "BL",
@@ -10577,6 +11000,7 @@
   {
     "name": "Onyxia Blood Talisman",
     "link": "https://classicdb.ch/?item=18406",
+    "quality": "purple",
     "aep": 9,
     "maep": 0,
     "loc": "OL",
@@ -10602,6 +11026,7 @@
   {
     "name": "Demon's Blood",
     "link": "https://classicdb.ch/?item=10779",
+    "quality": "green",
     "aep": 2,
     "maep": 0,
     "loc": "BL",
@@ -10627,6 +11052,7 @@
   {
     "name": "Stormpike Insignia Rank 6",
     "link": "https://classicdb.ch/?item=17904",
+    "quality": "purple",
     "aep": 8,
     "maep": 0,
     "loc": "BG",
@@ -10652,6 +11078,7 @@
   {
     "name": "Frostwolf Insignia Rank 6",
     "link": "https://classicdb.ch/?item=17909",
+    "quality": "purple",
     "aep": 8,
     "maep": 0,
     "loc": "BG",
@@ -10677,6 +11104,7 @@
   {
     "name": "Stormpike Insignia Rank 5",
     "link": "https://classicdb.ch/?item=17903",
+    "quality": "rgb(51, 102, 255)",
     "aep": 4,
     "maep": 0,
     "loc": "BG",
@@ -10702,6 +11130,7 @@
   {
     "name": "Frostwolf Insignia Rank 5",
     "link": "https://classicdb.ch/?item=17908",
+    "quality": "rgb(51, 102, 255)",
     "aep": 4,
     "maep": 0,
     "loc": "BG",
@@ -10727,6 +11156,7 @@
   {
     "name": "Stormpike Insignia Rank 4",
     "link": "https://classicdb.ch/?item=17902",
+    "quality": "rgb(51, 102, 255)",
     "aep": 4,
     "maep": 0,
     "loc": "BG",
@@ -10752,6 +11182,7 @@
   {
     "name": "Frostwolf Insignia Rank 4",
     "link": "https://classicdb.ch/?item=17907",
+    "quality": "rgb(51, 102, 255)",
     "aep": 4,
     "maep": 0,
     "loc": "BG",
@@ -10777,6 +11208,7 @@
   {
     "name": "Rune of Duty (40)",
     "link": "https://classicdb.ch/?item=21567",
+    "quality": "rgb(51, 102, 255)",
     "aep": 7,
     "maep": 0,
     "loc": "WSG",
@@ -10802,6 +11234,7 @@
   {
     "name": "Shard of the Flame",
     "link": "https://classicdb.ch/?item=17082",
+    "quality": "purple",
     "aep": 1,
     "maep": 0,
     "loc": "MC",
@@ -10827,6 +11260,7 @@
   {
     "name": "Stormpike Insignia Rank 3",
     "link": "https://classicdb.ch/?item=17901",
+    "quality": "green",
     "aep": 4,
     "maep": 0,
     "loc": "BG",
@@ -10852,6 +11286,7 @@
   {
     "name": "Frostwolf Insignia Rank 3",
     "link": "https://classicdb.ch/?item=17906",
+    "quality": "green",
     "aep": 4,
     "maep": 0,
     "loc": "BG",
@@ -10877,6 +11312,7 @@
   {
     "name": "Rune of Duty (20)",
     "link": "https://classicdb.ch/?item=21568",
+    "quality": "rgb(51, 102, 255)",
     "aep": 4,
     "maep": 0,
     "loc": "WSG",
@@ -10902,6 +11338,7 @@
   {
     "name": "Stormpike Insignia Rank 2",
     "link": "https://classicdb.ch/?item=17900",
+    "quality": "green",
     "aep": 1,
     "maep": 0,
     "loc": "BG",
@@ -10927,6 +11364,7 @@
   {
     "name": "Frostwolf Insignia Rank 2",
     "link": "https://classicdb.ch/?item=17905",
+    "quality": "green",
     "aep": 1,
     "maep": 0,
     "loc": "BG",
@@ -10952,6 +11390,7 @@
   {
     "name": "Shard of Afrasa",
     "link": "https://classicdb.ch/?item=10659",
+    "quality": "green",
     "aep": 1,
     "maep": 0,
     "loc": "BL",
@@ -10977,6 +11416,7 @@
   {
     "name": "Shroud of Dominion",
     "link": "https://classicdb.ch/?item=23045",
+    "quality": "purple",
     "aep": 47,
     "maep": 35,
     "loc": "Naxx",
@@ -11002,6 +11442,7 @@
   {
     "name": "Cloak of the Fallen God",
     "link": "https://classicdb.ch/?item=21710",
+    "quality": "purple",
     "aep": 47,
     "maep": 32,
     "loc": "AQ40",
@@ -11027,6 +11468,7 @@
   {
     "name": "Cloak of Concentrated Hatred",
     "link": "https://classicdb.ch/?item=21701",
+    "quality": "purple",
     "aep": 45,
     "maep": 29,
     "loc": "AQ40",
@@ -11052,6 +11494,7 @@
   {
     "name": "Puissant Cape",
     "link": "https://classicdb.ch/?item=18541",
+    "quality": "purple",
     "aep": 40,
     "maep": 28,
     "loc": "Azs",
@@ -11077,6 +11520,7 @@
   {
     "name": "Cloak of Veiled Shadows",
     "link": "https://classicdb.ch/?item=21406",
+    "quality": "purple",
     "aep": 37,
     "maep": 26,
     "loc": "AQ40",
@@ -11102,6 +11546,7 @@
   {
     "name": "Cloak of Firemaw",
     "link": "https://classicdb.ch/?item=19398",
+    "quality": "purple",
     "aep": 38,
     "maep": 25,
     "loc": "BWL",
@@ -11127,6 +11572,7 @@
   {
     "name": "Cape of the Black Baron",
     "link": "https://classicdb.ch/?item=13340",
+    "quality": "rgb(51, 102, 255)",
     "aep": 25,
     "maep": 25,
     "loc": "Str",
@@ -11152,6 +11598,7 @@
   {
     "name": "Cloak of Draconic Might",
     "link": "https://classicdb.ch/?item=19436",
+    "quality": "purple",
     "aep": 29,
     "maep": 24,
     "loc": "BWL",
@@ -11177,6 +11624,7 @@
   {
     "name": "Cloak of the Scourge",
     "link": "https://classicdb.ch/?item=23030",
+    "quality": "purple",
     "aep": 46,
     "maep": 23,
     "loc": "Naxx",
@@ -11202,6 +11650,7 @@
   {
     "name": "Earthweave Cloak",
     "link": "https://classicdb.ch/?item=21187",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 23,
     "loc": "Sil",
@@ -11227,6 +11676,7 @@
   {
     "name": "Cloak of the Shrouded Mists",
     "link": "https://classicdb.ch/?item=17102",
+    "quality": "purple",
     "aep": 36,
     "maep": 22,
     "loc": "MC",
@@ -11252,6 +11702,7 @@
   {
     "name": "Cloak of the Honor Guard",
     "link": "https://classicdb.ch/?item=20073",
+    "quality": "purple",
     "aep": 34,
     "maep": 22,
     "loc": "AB",
@@ -11277,6 +11728,7 @@
   {
     "name": "Deathguard's Cloak",
     "link": "https://classicdb.ch/?item=20068",
+    "quality": "purple",
     "aep": 34,
     "maep": 22,
     "loc": "AB",
@@ -11302,6 +11754,7 @@
   {
     "name": "Zulian Tigerhide Cloak",
     "link": "https://classicdb.ch/?item=19907",
+    "quality": "rgb(51, 102, 255)",
     "aep": 31,
     "maep": 21,
     "loc": "ZG",
@@ -11327,6 +11780,7 @@
   {
     "name": "Windshear Cape",
     "link": "https://classicdb.ch/?item=20691",
+    "quality": "purple",
     "aep": 34,
     "maep": 19,
     "loc": "Sil",
@@ -11352,6 +11806,7 @@
   {
     "name": "Shifting Cloak",
     "link": "https://classicdb.ch/?item=18511",
+    "quality": "purple",
     "aep": 28,
     "maep": 17,
     "loc": "LW",
@@ -11377,6 +11832,7 @@
   {
     "name": "Shadow Prowler's Cloak",
     "link": "https://classicdb.ch/?item=22269",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 17,
     "loc": "UBRS",
@@ -11402,6 +11858,7 @@
   {
     "name": "Blackveil Cape",
     "link": "https://classicdb.ch/?item=11626",
+    "quality": "rgb(51, 102, 255)",
     "aep": 17,
     "maep": 17,
     "loc": "BRD",
@@ -11427,6 +11884,7 @@
   {
     "name": "Cloak of the Golden Hive",
     "link": "https://classicdb.ch/?item=21621",
+    "quality": "purple",
     "aep": 37,
     "maep": 17,
     "loc": "AQ40",
@@ -11452,6 +11910,7 @@
   {
     "name": "Cloak of Revanchion",
     "link": "https://classicdb.ch/?item=23127",
+    "quality": "rgb(51, 102, 255)",
     "aep": 26,
     "maep": 15,
     "loc": "DM-W",
@@ -11477,6 +11936,7 @@
   {
     "name": "Blisterbane Wrap",
     "link": "https://classicdb.ch/?item=12552",
+    "quality": "rgb(51, 102, 255)",
     "aep": 19,
     "maep": 15,
     "loc": "BRD",
@@ -11502,6 +11962,7 @@
   {
     "name": "Masterwork Cape of the Tiger",
     "link": "https://classicdb.ch/?item=10267",
+    "quality": "green",
     "aep": 15,
     "maep": 15,
     "loc": "R",
@@ -11527,6 +11988,7 @@
   {
     "name": "Supreme Cape of the Tiger",
     "link": "https://classicdb.ch/?item=15437",
+    "quality": "green",
     "aep": 15,
     "maep": 15,
     "loc": "R",
@@ -11552,6 +12014,7 @@
   {
     "name": "Adventurer's Cape of the Tiger",
     "link": "https://classicdb.ch/?item=10258",
+    "quality": "green",
     "aep": 15,
     "maep": 15,
     "loc": "R",
@@ -11577,6 +12040,7 @@
   {
     "name": "Dark Phantom Cape",
     "link": "https://classicdb.ch/?item=13122",
+    "quality": "rgb(51, 102, 255)",
     "aep": 15,
     "maep": 15,
     "loc": "R",
@@ -11602,6 +12066,7 @@
   {
     "name": "Mercurial Cloak of the Tiger",
     "link": "https://classicdb.ch/?item=10159",
+    "quality": "green",
     "aep": 15,
     "maep": 15,
     "loc": "R",
@@ -11627,6 +12092,7 @@
   {
     "name": "Triumphant Cloak of the Tiger",
     "link": "https://classicdb.ch/?item=15681",
+    "quality": "green",
     "aep": 15,
     "maep": 15,
     "loc": "R",
@@ -11652,6 +12118,7 @@
   {
     "name": "Duskbat Drape",
     "link": "https://classicdb.ch/?item=19982",
+    "quality": "rgb(51, 102, 255)",
     "aep": 15,
     "maep": 15,
     "loc": "ToAH",
@@ -11677,6 +12144,7 @@
   {
     "name": "Might of the Tribe",
     "link": "https://classicdb.ch/?item=22712",
+    "quality": "rgb(51, 102, 255)",
     "aep": 32,
     "maep": 14,
     "loc": "ZG",
@@ -11702,6 +12170,7 @@
   {
     "name": "Impenetrable Cloak of the Tiger",
     "link": "https://classicdb.ch/?item=15661",
+    "quality": "green",
     "aep": 14,
     "maep": 14,
     "loc": "R",
@@ -11727,6 +12196,7 @@
   {
     "name": "Peerless Cloak of the Tiger",
     "link": "https://classicdb.ch/?item=15427",
+    "quality": "green",
     "aep": 14,
     "maep": 14,
     "loc": "R",
@@ -11752,6 +12222,7 @@
   {
     "name": "Stormpike Soldier's Cloak",
     "link": "https://classicdb.ch/?item=19084",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 12,
     "loc": "AV",
@@ -11777,6 +12248,7 @@
   {
     "name": "Frostwolf Legionnaire's Cloak",
     "link": "https://classicdb.ch/?item=19083",
+    "quality": "rgb(51, 102, 255)",
     "aep": 24,
     "maep": 12,
     "loc": "AV",
@@ -11802,6 +12274,7 @@
   {
     "name": "Dark Hooded Cape",
     "link": "https://classicdb.ch/?item=5257",
+    "quality": "rgb(51, 102, 255)",
     "aep": 12,
     "maep": 12,
     "loc": "ArHi",
@@ -11827,6 +12300,7 @@
   {
     "name": "Stoneskin Gargoyle Cape",
     "link": "https://classicdb.ch/?item=13397",
+    "quality": "rgb(51, 102, 255)",
     "aep": 26,
     "maep": 12,
     "loc": "Str",
@@ -11852,6 +12326,7 @@
   {
     "name": "Deep River Cloak",
     "link": "https://classicdb.ch/?item=15789",
+    "quality": "green",
     "aep": 18,
     "maep": 11,
     "loc": "WS",
@@ -11877,6 +12352,7 @@
   {
     "name": "Eskhandar's Pelt",
     "link": "https://classicdb.ch/?item=18204",
+    "quality": "purple",
     "aep": 31,
     "maep": 10,
     "loc": "BL",
@@ -11902,6 +12378,7 @@
   {
     "name": "Shroud of Domination",
     "link": "https://classicdb.ch/?item=22337",
+    "quality": "rgb(51, 102, 255)",
     "aep": 16,
     "maep": 9,
     "loc": "LBRS",
@@ -11927,6 +12404,7 @@
   {
     "name": "Armswake Cloak",
     "link": "https://classicdb.ch/?item=13203",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 8,
     "loc": "LBRS",
@@ -11952,6 +12430,7 @@
   {
     "name": "Tigerstrike Mantle",
     "link": "https://classicdb.ch/?item=13108",
+    "quality": "rgb(51, 102, 255)",
     "aep": 15,
     "maep": 8,
     "loc": "R",
@@ -11977,6 +12456,7 @@
   {
     "name": "Cryptfiend Silk Cloak",
     "link": "https://classicdb.ch/?item=22938",
+    "quality": "purple",
     "aep": 28,
     "maep": 8,
     "loc": "Naxx",
@@ -12002,6 +12482,7 @@
   {
     "name": "The Emperor's New Cape",
     "link": "https://classicdb.ch/?item=11930",
+    "quality": "rgb(51, 102, 255)",
     "aep": 23,
     "maep": 7,
     "loc": "BRD",
@@ -12027,6 +12508,7 @@
   {
     "name": "Nerubian Slavemaker",
     "link": "https://classicdb.ch/?item=22812",
+    "quality": "purple",
     "aep": 22,
     "maep": 22,
     "loc": "Naxx",
@@ -12052,6 +12534,7 @@
   {
     "name": "Larvae of the Great Worm",
     "link": "https://classicdb.ch/?item=23557",
+    "quality": "purple",
     "aep": 19,
     "maep": 19,
     "loc": "AQ40",
@@ -12077,6 +12560,7 @@
   {
     "name": "Striker's Mark",
     "link": "https://classicdb.ch/?item=17069",
+    "quality": "purple",
     "aep": 19,
     "maep": 19,
     "loc": "MC",
@@ -12102,6 +12586,7 @@
   {
     "name": "Soulstring",
     "link": "https://classicdb.ch/?item=22811",
+    "quality": "purple",
     "aep": 24,
     "maep": 18,
     "loc": "Naxx",
@@ -12127,6 +12612,7 @@
   {
     "name": "Huhuran's Stinger",
     "link": "https://classicdb.ch/?item=21616",
+    "quality": "purple",
     "aep": 18,
     "maep": 18,
     "loc": "AQ40",
@@ -12152,6 +12638,7 @@
   {
     "name": "Crossbow of Imminent Doom",
     "link": "https://classicdb.ch/?item=21459",
+    "quality": "purple",
     "aep": 22,
     "maep": 17,
     "loc": "AQ20",
@@ -12177,6 +12664,7 @@
   {
     "name": "Gurubashi Dwarf Destroyer",
     "link": "https://classicdb.ch/?item=19853",
+    "quality": "purple",
     "aep": 15,
     "maep": 15,
     "loc": "ZG",
@@ -12202,6 +12690,7 @@
   {
     "name": "Toxin Injector",
     "link": "https://classicdb.ch/?item=22810",
+    "quality": "purple",
     "aep": 24,
     "maep": 14,
     "loc": "Naxx",
@@ -12227,6 +12716,7 @@
   {
     "name": "Dragonbreath Hand Cannon",
     "link": "https://classicdb.ch/?item=19368",
+    "quality": "purple",
     "aep": 21,
     "maep": 14,
     "loc": "BWL",
@@ -12252,6 +12742,7 @@
   {
     "name": "Precisely Calibrated Boomstick",
     "link": "https://classicdb.ch/?item=2100",
+    "quality": "purple",
     "aep": 14,
     "maep": 14,
     "loc": "R",
@@ -12277,6 +12768,7 @@
   {
     "name": "Polished Ironwood Crossbow",
     "link": "https://classicdb.ch/?item=20599",
+    "quality": "purple",
     "aep": 18,
     "maep": 12,
     "loc": "4D",
@@ -12302,6 +12794,7 @@
   {
     "name": "Heartstriker",
     "link": "https://classicdb.ch/?item=19350",
+    "quality": "purple",
     "aep": 21,
     "maep": 12,
     "loc": "BWL",
@@ -12327,6 +12820,7 @@
   {
     "name": "Fahrad's Reloading Repeater",
     "link": "https://classicdb.ch/?item=22347",
+    "quality": "rgb(51, 102, 255)",
     "aep": 12,
     "maep": 12,
     "loc": "Sil",
@@ -12352,6 +12846,7 @@
   {
     "name": "Mandokir's Sting",
     "link": "https://classicdb.ch/?item=20038",
+    "quality": "purple",
     "aep": 19,
     "maep": 11,
     "loc": "ZG",
@@ -12377,6 +12872,7 @@
   {
     "name": "Bow of Taut Sinew",
     "link": "https://classicdb.ch/?item=21478",
+    "quality": "purple",
     "aep": 12,
     "maep": 11,
     "loc": "AQ20",
@@ -12402,6 +12898,7 @@
   {
     "name": "Bloodseeker",
     "link": "https://classicdb.ch/?item=19107",
+    "quality": "rgb(51, 102, 255)",
     "aep": 11,
     "maep": 11,
     "loc": "AV",
@@ -12427,6 +12924,7 @@
   {
     "name": "Ancient Bone Bow",
     "link": "https://classicdb.ch/?item=18680",
+    "quality": "rgb(51, 102, 255)",
     "aep": 11,
     "maep": 11,
     "loc": "Sch",
@@ -12452,6 +12950,7 @@
   {
     "name": "Riphook",
     "link": "https://classicdb.ch/?item=12653",
+    "quality": "rgb(51, 102, 255)",
     "aep": 11,
     "maep": 11,
     "loc": "LBRS",
@@ -12477,6 +12976,7 @@
   {
     "name": "Blackcrow",
     "link": "https://classicdb.ch/?item=12651",
+    "quality": "rgb(51, 102, 255)",
     "aep": 11,
     "maep": 11,
     "loc": "LBRS",
@@ -12502,6 +13002,7 @@
   {
     "name": "Satyr's Bow",
     "link": "https://classicdb.ch/?item=18323",
+    "quality": "rgb(51, 102, 255)",
     "aep": 11,
     "maep": 11,
     "loc": "DM-E",
@@ -12527,6 +13028,7 @@
   {
     "name": "Blastershot Launcher",
     "link": "https://classicdb.ch/?item=17072",
+    "quality": "purple",
     "aep": 16,
     "maep": 10,
     "loc": "MC",
@@ -12552,6 +13054,7 @@
   {
     "name": "Hoodoo Hunting Bow",
     "link": "https://classicdb.ch/?item=19993",
+    "quality": "rgb(51, 102, 255)",
     "aep": 14,
     "maep": 10,
     "loc": "ZG",
@@ -12577,6 +13080,7 @@
   {
     "name": "Crystal Slugthrower",
     "link": "https://classicdb.ch/?item=20722",
+    "quality": "rgb(51, 102, 255)",
     "aep": 14,
     "maep": 10,
     "loc": "Sil",
@@ -12602,6 +13106,7 @@
   {
     "name": "Malgen's Long Bow",
     "link": "https://classicdb.ch/?item=22318",
+    "quality": "rgb(51, 102, 255)",
     "aep": 14,
     "maep": 10,
     "loc": "BRD",
@@ -12627,6 +13132,7 @@
   {
     "name": "Eaglehorn Long Bow",
     "link": "https://classicdb.ch/?item=13023",
+    "quality": "rgb(51, 102, 255)",
     "aep": 14,
     "maep": 10,
     "loc": "R",
@@ -12652,6 +13158,7 @@
   {
     "name": "The Purifier",
     "link": "https://classicdb.ch/?item=22656",
+    "quality": "purple",
     "aep": 10,
     "maep": 10,
     "loc": "EPL",
@@ -12677,6 +13184,7 @@
   {
     "name": "Guttbuster",
     "link": "https://classicdb.ch/?item=13139",
+    "quality": "rgb(51, 102, 255)",
     "aep": 10,
     "maep": 10,
     "loc": "R",
@@ -12702,6 +13210,7 @@
   {
     "name": "Heartseeking Crossbow",
     "link": "https://classicdb.ch/?item=13040",
+    "quality": "rgb(51, 102, 255)",
     "aep": 13,
     "maep": 9,
     "loc": "R",
@@ -12727,6 +13236,7 @@
   {
     "name": "Archstrike Bow of the Tiger",
     "link": "https://classicdb.ch/?item=15289",
+    "quality": "green",
     "aep": 9,
     "maep": 9,
     "loc": "R",
@@ -12752,6 +13262,7 @@
   {
     "name": "Gryphonwing Long Bow",
     "link": "https://classicdb.ch/?item=13022",
+    "quality": "rgb(51, 102, 255)",
     "aep": 12,
     "maep": 8,
     "loc": "R",
@@ -12777,6 +13288,7 @@
   {
     "name": "Siege Bow of the Tiger",
     "link": "https://classicdb.ch/?item=15294",
+    "quality": "green",
     "aep": 8,
     "maep": 8,
     "loc": "R",
@@ -12802,6 +13314,7 @@
   {
     "name": "Burnside Rifle of the Tiger",
     "link": "https://classicdb.ch/?item=15324",
+    "quality": "green",
     "aep": 8,
     "maep": 8,
     "loc": "R",
@@ -12827,6 +13340,7 @@
   {
     "name": "Harpy Needler of the Tiger",
     "link": "https://classicdb.ch/?item=15291",
+    "quality": "green",
     "aep": 8,
     "maep": 8,
     "loc": "R",
@@ -12852,6 +13366,7 @@
   {
     "name": "Sharpshooter Harq. of the Tiger",
     "link": "https://classicdb.ch/?item=15325",
+    "quality": "green",
     "aep": 8,
     "maep": 8,
     "loc": "R",
@@ -12877,6 +13392,7 @@
   {
     "name": "Quillfire Bow of the Tiger",
     "link": "https://classicdb.ch/?item=15295",
+    "quality": "green",
     "aep": 8,
     "maep": 8,
     "loc": "R",
@@ -12902,6 +13418,7 @@
   {
     "name": "Percussion Shotgun of the Tiger",
     "link": "https://classicdb.ch/?item=15323",
+    "quality": "green",
     "aep": 8,
     "maep": 8,
     "loc": "R",
@@ -12927,6 +13444,7 @@
   {
     "name": "The Silencer",
     "link": "https://classicdb.ch/?item=13138",
+    "quality": "rgb(51, 102, 255)",
     "aep": 7,
     "maep": 7,
     "loc": "R",
@@ -12952,6 +13470,7 @@
   {
     "name": "Swiftwind",
     "link": "https://classicdb.ch/?item=13038",
+    "quality": "rgb(51, 102, 255)",
     "aep": 7,
     "maep": 7,
     "loc": "R",
@@ -12977,6 +13496,7 @@
   {
     "name": "Ogre Toothpick Shooter",
     "link": "https://classicdb.ch/?item=18482",
+    "quality": "green",
     "aep": 11,
     "maep": 6,
     "loc": "DM-N",
@@ -13002,6 +13522,7 @@
   {
     "name": "Deep Strike Bow",
     "link": "https://classicdb.ch/?item=20663",
+    "quality": "rgb(51, 102, 255)",
     "aep": 10,
     "maep": 6,
     "loc": "Sil",
@@ -13027,6 +13548,7 @@
   {
     "name": "Monolithic Bow",
     "link": "https://classicdb.ch/?item=9426",
+    "quality": "rgb(51, 102, 255)",
     "aep": 6,
     "maep": 6,
     "loc": "Uld",
@@ -13052,6 +13574,7 @@
   {
     "name": "Gorewood Bow",
     "link": "https://classicdb.ch/?item=16996",
+    "quality": "rgb(51, 102, 255)",
     "aep": 13,
     "maep": 4,
     "loc": "EPL",

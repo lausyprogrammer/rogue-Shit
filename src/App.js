@@ -62,6 +62,10 @@ function getInt(n) {
   return n || '';
 }
 
+function capitalize(str) {
+  return str.slice(0, 1).toUpperCase() + str.slice(1).toLowerCase();
+}
+
 const DATA_BY_BUCKETS = data.map(item => {
   const { crit, hit, parry, dodge, armor, agility, stamina, strength, attackPower } = item;
   return {...item,
@@ -90,8 +94,8 @@ const DATA_BY_BUCKETS = data.map(item => {
 const BUCKETS = Object.keys(DATA_BY_BUCKETS);
 const COLUMNS = [
   { Header: 'Name', accessor: 'name' },
-  { Header: 'Oto Swords', accessor: 'otoSwords' },
-  { Header: 'Oto Daggers', accessor: 'otoDaggers' },
+  { Header: 'Oto Swords Buffed', accessor: 'otoSwords' },
+  { Header: 'Oto Daggers Buffed', accessor: 'otoDaggers' },
   { Header: 'AEP', accessor: 'aep' },
   { Header: 'MAEP', accessor: 'maep' },
   { Header: 'Location', accessor: 'loc' },
@@ -112,12 +116,13 @@ const COLUMNS = [
   { Header: 'Dodge Chance', accessor: 'dodge' },
   { Header: 'Defense', accessor: 'defense' },
   { Header: 'Special', accessor: 'special' },
-  { Header: 'Link', accessor: 'link', show: false }
+  { Header: 'Link', accessor: 'link', show: false },
+  { Header: 'Quality', accessor: 'quality', show: false },
 ]
 
 function App() {
   const [currentSlot, setSlot] = useState(BUCKETS[0]);
-  const data = DATA_BY_BUCKETS[currentSlot];
+  const data = DATA_BY_BUCKETS[currentSlot].sort((a, b) => b.otoSwords - a.otoSwords);
 
   return (
     <ThemeProvider theme={theme}>
@@ -132,7 +137,7 @@ function App() {
           onChange={(e) => setSlot(e.target.value)}
           value={currentSlot}>
             {BUCKETS.map(slot => (
-              <option key={slot}>{slot}</option>
+              <option key={slot} value={slot}>{capitalize(slot)}</option>
             ))}
           </Select>
       </Box>
