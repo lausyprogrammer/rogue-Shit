@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rogue-Shit/static/css/main.34de6062.chunk.css",
+    "main.js": "/rogue-Shit/static/js/main.eadf0102.chunk.js",
+    "main.js.map": "/rogue-Shit/static/js/main.eadf0102.chunk.js.map",
+    "runtime-main.js": "/rogue-Shit/static/js/runtime-main.4d1f1f92.js",
+    "runtime-main.js.map": "/rogue-Shit/static/js/runtime-main.4d1f1f92.js.map",
+    "static/js/2.7693e6bf.chunk.js": "/rogue-Shit/static/js/2.7693e6bf.chunk.js",
+    "static/js/2.7693e6bf.chunk.js.map": "/rogue-Shit/static/js/2.7693e6bf.chunk.js.map",
+    "index.html": "/rogue-Shit/index.html",
+    "precache-manifest.222a6ebdd75754fc1aad1940ca71aaed.js": "/rogue-Shit/precache-manifest.222a6ebdd75754fc1aad1940ca71aaed.js",
+    "service-worker.js": "/rogue-Shit/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/rogue-Shit/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d1f1f92.js",
+    "static/js/2.7693e6bf.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.eadf0102.chunk.js"
+  ]
+}
