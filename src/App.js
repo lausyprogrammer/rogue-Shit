@@ -93,14 +93,15 @@ function App() {
   const [currentSlot, setSlot] = useState(buckets[0]);
   const [isAvailableOnly, setIsAvailableOny] = useState(true);
   const data = React.useMemo(() => {
-    let rows = itemsByBuckets[currentSlot].sort(sortBy);
+    const cleanedSlot = buckets.includes(currentSlot) ? currentSlot : buckets[0];
+    let rows = itemsByBuckets[cleanedSlot] || [];
 
     if (isAvailableOnly) {
       rows = rows.filter(_ => _.isAvailableToday);
     }
 
-    return rows;
-  }, [currentSlot, isAvailableOnly, itemsByBuckets, sortBy]);
+    return rows.sort(sortBy);
+  }, [currentSlot, isAvailableOnly, itemsByBuckets, sortBy, buckets]);
   const columns = React.useMemo(() => CLASS_CONFIG[currentClass].columns, [currentClass]);
   const methodology = React.useMemo(() => CLASS_CONFIG[currentClass].methodology, [currentClass]);
   const statTables = React.useMemo(() => CLASS_CONFIG[currentClass].statTables, [currentClass]);
