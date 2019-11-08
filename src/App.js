@@ -8,15 +8,12 @@ import theme from '@rebass/preset'
 import Table from './Components/Table';
 import data from './Fixture/ROGUE_GEAR.json'
 import {
-  ROGUE_COLUMNS,
+  CLASS_CONFIG,
+  CLASSES,
   ROGUE_STATS_TABLES,
   ROGUE_METHODOLOGY,
-  getOtoDaggers,
-  getOtoSwords,
-  getPercentage,
-  getInt,
   capitalize,
-  isItemAvailableToday,
+  normalizeGearDataAndBucketBySlot,
 } from './Utils/helpers';
 
 const Styles = styled.div`
@@ -48,35 +45,10 @@ const Styles = styled.div`
     }
   }
 `
-
-const DATA_BY_BUCKETS = data.map(item => {
-  const { crit, hit, parry, dodge, armor, agility, stamina, strength, attackPower } = item;
-  return {
-    ...item,
-    otoDaggers: getOtoDaggers(item),
-    otoSwords: getOtoSwords(item),
-    crit: getPercentage(crit),
-    hit: getPercentage(hit),
-    parry: getPercentage(parry),
-    dodge: getPercentage(dodge),
-    armor: getInt(armor),
-    agility: getInt(agility),
-    stamina: getInt(stamina),
-    strength: getInt(strength),
-    attackPower: getInt(attackPower),
-    isAvailableToday: isItemAvailableToday(item),
-  }
-}).reduce((map, item) => {
-  const { slot } = item;
-  if (map[slot]) {
-    map[slot].push(item);
-  } else {
-    map[slot] = [item];
-  }
-
-  return map;
-}, {});
+const LOCAL_STORAGE_CLASS_KEY = 'Thuggin_SUCKS';
+const DATA_BY_BUCKETS = normalizeGearDataAndBucketBySlot(data);
 const BUCKETS = Object.keys(DATA_BY_BUCKETS);
+const PLAYER_CLASSES = Object.keys(CLASSES)
 
 function StatsTable(props) {
   return (
@@ -89,7 +61,7 @@ function StatsTable(props) {
       </thead>
       <tbody>
         {props.data.map(([a, b]) => (
-          <tr>
+          <tr key={a}>
             <td>{a}</td>
             <td>{b}</td>
           </tr>
@@ -100,8 +72,11 @@ function StatsTable(props) {
 }
 
 function App() {
+  const cachedPlayerClass = React.useMemo(() => window.localStorage.getItem(LOCAL_STORAGE_CLASS_KEY), []);
+
   const [currentSlot, setSlot] = useState(BUCKETS[0]);
   const [isAvailableOnly, setIsAvailableOny] = useState(true);
+  const [currentClass, setClass] = useState(cachedPlayerClass || CLASSES.ROGUE);
   const data = React.useMemo(() => {
     let rows = DATA_BY_BUCKETS[currentSlot].sort((a, b) => b.otoSwords - a.otoSwords);
 
@@ -111,33 +86,43 @@ function App() {
 
     return rows;
   }, [currentSlot, isAvailableOnly]);
-  const columns = React.useMemo(() => ROGUE_COLUMNS, []);
+  const columns = React.useMemo(() => CLASS_CONFIG[currentClass].columns, [currentClass]);
+  const methodology = React.useMemo(() => CLASS_CONFIG[currentClass].methodology, [currentClass]);
+  const statTables = React.useMemo(() => CLASS_CONFIG[currentClass].statTables, [currentClass]);
 
   return (
     <ThemeProvider theme={theme}>
       <Styles>
         <Box m="auto">
           <Flex alignItems="center" justifyContent="space-around">
-            <Box width={0.25}>
-              <Heading mr={5}>Methodology</Heading>
-              <ul>
-                {
-                  ROGUE_METHODOLOGY.map(({ blurb, src }) => (
-                    <li>
-                      {blurb} {src ? (<a href={src} target="_blank" rel="noopener noreferrer">[src]</a>) : null}
-                    </li>
-                  ))
-                }
-              </ul>
-            </Box>
-            <Flex justifyContent="space-around">
-              {ROGUE_STATS_TABLES.map(table => (
-                <Box key={table.name} p={2}>
-                  <h3>{table.name}</h3>
-                  <StatsTable data={table.table} />
+            {
+              methodology ? (
+                <Box width={0.25}>
+                  <Heading mr={5}>Methodology</Heading>
+                  <ul>
+                    {
+                      methodology.map(({ blurb, src }, index) => (
+                        <li key={index}>
+                          {blurb} {src ? (<a href={src} target="_blank" rel="noopener noreferrer">[src]</a>) : null}
+                        </li>
+                      ))
+                    }
+                  </ul>
                 </Box>
-              ))}
-            </Flex>
+              ) : null
+            }
+            {
+              statTables ? (
+                <Flex justifyContent="space-around">
+                  {statTables.map(table => (
+                    <Box key={table.name} p={2}>
+                      <h3>{table.name}</h3>
+                      <StatsTable data={table.table} />
+                    </Box>
+                  ))}
+                </Flex>
+              ) : null
+            }
           </Flex>
           <Flex flex alignItems="center" maxWidth={600} m="auto">
             <Box>
@@ -146,7 +131,7 @@ function App() {
                 Show Gear From All Phases
             </Label>
             </Box>
-            <Box mb={3} mx="auto" width={360}>
+            <Box mb={3} mx={2} width={240}>
               <Label htmlFor='slot' mb={1}>Slot</Label>
               <Select
                 id='slot'
@@ -155,6 +140,21 @@ function App() {
                 value={currentSlot}>
                 {BUCKETS.map(slot => (
                   <option key={slot} value={slot}>{capitalize(slot)}</option>
+                ))}
+              </Select>
+            </Box>
+            <Box mb={3} mx={2} width={240}>
+              <Label htmlFor='class' mb={1}>Class</Label>
+              <Select
+                id='class'
+                name='class'
+                onChange={(e) => {
+                  setClass(e.target.value);
+                  window.localStorage.setItem(LOCAL_STORAGE_CLASS_KEY, e.target.value);
+                }}
+                value={currentClass}>
+                {PLAYER_CLASSES.map(clazz => (
+                  <option key={clazz} value={clazz}>{capitalize(clazz)}</option>
                 ))}
               </Select>
             </Box>

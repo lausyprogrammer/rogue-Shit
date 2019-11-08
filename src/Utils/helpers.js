@@ -72,7 +72,7 @@ export const ROGUE_STATS_TABLES = [
     src: 'https://shadowpanther.net/',
     desc: 'Maximum DPS AEP for use in maximizing PVE raid DPS.'
   },
-]
+];
 export const ROGUE_METHODOLOGY = [
   {
     blurb: "Oto's measurements are based on the popular rogue guide created for Nostalrius and assume that the users are combat specced and raid buffed. The tables to the right explicitly reflect Alliance buffs.",
@@ -85,8 +85,49 @@ export const ROGUE_METHODOLOGY = [
   {
     blurb: 'MAEP stands for Maxmium DPS AEP and is for most intents and purposes the same thing as AEP while ascribing no value to stamina.'
   }
-]
-
+];
+export const WARRIOR_COLUMNS = [
+  { Header: 'Name', accessor: 'name' },
+  { Header: 'Oto Swords Buffed', accessor: 'otoSwords' },
+  { Header: 'Oto Daggers Buffed', accessor: 'otoDaggers' },
+  { Header: 'AEP', accessor: 'aep' },
+  { Header: 'MAEP', accessor: 'maep' },
+  { Header: 'Location', accessor: 'loc' },
+  { Header: 'Phase', accessor: 'phase' },
+  { Header: 'Info', accessor: 'info' },
+  { Header: 'Source', accessor: 'source' },
+  { Header: 'Set', accessor: 'set' },
+  { Header: 'Level', accessor: 'lvl' },
+  { Header: 'Binds on', accessor: 'bindOn' },
+  { Header: 'Armor', accessor: 'armor' },
+  { Header: 'Agility', accessor: 'agility' },
+  { Header: 'Stamina', accessor: 'stamina' },
+  { Header: 'Strength', accessor: 'strength' },
+  { Header: 'Attack Power', accessor: 'attackPower' },
+  { Header: 'Crit Chance', accessor: 'crit' },
+  { Header: 'Hit Chance', accessor: 'hit' },
+  { Header: 'Parry Chance', accessor: 'parry' },
+  { Header: 'Dodge Chance', accessor: 'dodge' },
+  { Header: 'Defense', accessor: 'defense' },
+  { Header: 'Special', accessor: 'special' },
+  { Header: 'Link', accessor: 'link', show: false },
+  { Header: 'Quality', accessor: 'quality', show: false },
+  { Header: 'Is Available', accessor: 'isAvailableToday', show: false }
+];
+export const CLASSES = {
+  ROGUE: 'ROGUE',
+  WARRIOR: 'WARRIOR',
+};
+export const CLASS_CONFIG = {
+  [CLASSES.ROGUE]: {
+    columns: ROGUE_COLUMNS,
+    methodology: ROGUE_METHODOLOGY,
+    statTables: ROGUE_STATS_TABLES,
+  },
+  [CLASSES.WARRIOR]: {
+    columns: WARRIOR_COLUMNS,
+  }
+}
 export function roundNumber(n) {
   return Math.round(n * 10) / 10;
 }
@@ -119,4 +160,32 @@ export function isItemAvailableToday({ phase, loc }) {
   return phase <= CURRENT_PHASE || (loc.includes('DM') && phase < 3);
 }
 
+export function normalizeGearDataAndBucketBySlot(items) {
+  return items.map(item => {
+    const { crit, hit, parry, dodge, armor, agility, stamina, strength, attackPower } = item;
+    return {
+      ...item,
+      otoDaggers: getOtoDaggers(item),
+      otoSwords: getOtoSwords(item),
+      crit: getPercentage(crit),
+      hit: getPercentage(hit),
+      parry: getPercentage(parry),
+      dodge: getPercentage(dodge),
+      armor: getInt(armor),
+      agility: getInt(agility),
+      stamina: getInt(stamina),
+      strength: getInt(strength),
+      attackPower: getInt(attackPower),
+      isAvailableToday: isItemAvailableToday(item),
+    }
+  }).reduce((map, item) => {
+    const { slot } = item;
+    if (map[slot]) {
+      map[slot].push(item);
+    } else {
+      map[slot] = [item];
+    }
 
+    return map;
+  }, {});
+}
