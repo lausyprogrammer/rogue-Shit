@@ -6,12 +6,11 @@ import { ThemeProvider } from 'emotion-theming'
 import theme from '@rebass/preset'
 
 import Table from './Components/Table';
-import data from './Fixture/ROGUE_GEAR.json'
+import ROGUE_DATA from './Fixture/ROGUE_GEAR.json'
+import WARRIOR_DATA from './Fixture/WARRIOR_TANK_GEAR.json';
 import {
   CLASS_CONFIG,
   CLASSES,
-  ROGUE_STATS_TABLES,
-  ROGUE_METHODOLOGY,
   capitalize,
   normalizeGearDataAndBucketBySlot,
 } from './Utils/helpers';
@@ -46,8 +45,23 @@ const Styles = styled.div`
   }
 `
 const LOCAL_STORAGE_CLASS_KEY = 'Thuggin_SUCKS';
-const DATA_BY_BUCKETS = normalizeGearDataAndBucketBySlot(data);
-const BUCKETS = Object.keys(DATA_BY_BUCKETS);
+const ROGUE_DATA_NORMALIZED = normalizeGearDataAndBucketBySlot(ROGUE_DATA);
+const WARRIOR_DATA_NORMALIZED = normalizeGearDataAndBucketBySlot(WARRIOR_DATA);
+console.log(WARRIOR_DATA_NORMALIZED)
+const DATA = {
+  ROGUE: {
+    itemsByBuckets: ROGUE_DATA_NORMALIZED,
+    buckets: Object.keys(ROGUE_DATA_NORMALIZED),
+    sortBy(a, b) { return b.otoSwords - a.otoSwords },
+  },
+  WARRIOR: {
+    itemsByBuckets: WARRIOR_DATA_NORMALIZED,
+    buckets: Object.keys(WARRIOR_DATA_NORMALIZED),
+    sortBy(a, b) { return b.tank - a.tank },
+  },
+};
+// const DATA_BY_BUCKETS = normalizeGearDataAndBucketBySlot(ROGUE_DATA);
+// const BUCKETS = Object.keys(DATA_BY_BUCKETS);
 const PLAYER_CLASSES = Object.keys(CLASSES)
 
 function StatsTable(props) {
@@ -74,18 +88,19 @@ function StatsTable(props) {
 function App() {
   const cachedPlayerClass = React.useMemo(() => window.localStorage.getItem(LOCAL_STORAGE_CLASS_KEY), []);
 
-  const [currentSlot, setSlot] = useState(BUCKETS[0]);
-  const [isAvailableOnly, setIsAvailableOny] = useState(true);
   const [currentClass, setClass] = useState(cachedPlayerClass || CLASSES.ROGUE);
+  const { buckets, itemsByBuckets, sortBy } = React.useMemo(() => DATA[currentClass], [currentClass]);
+  const [currentSlot, setSlot] = useState(buckets[0]);
+  const [isAvailableOnly, setIsAvailableOny] = useState(true);
   const data = React.useMemo(() => {
-    let rows = DATA_BY_BUCKETS[currentSlot].sort((a, b) => b.otoSwords - a.otoSwords);
+    let rows = itemsByBuckets[currentSlot].sort(sortBy);
 
     if (isAvailableOnly) {
       rows = rows.filter(_ => _.isAvailableToday);
     }
 
     return rows;
-  }, [currentSlot, isAvailableOnly]);
+  }, [currentSlot, isAvailableOnly, itemsByBuckets, sortBy]);
   const columns = React.useMemo(() => CLASS_CONFIG[currentClass].columns, [currentClass]);
   const methodology = React.useMemo(() => CLASS_CONFIG[currentClass].methodology, [currentClass]);
   const statTables = React.useMemo(() => CLASS_CONFIG[currentClass].statTables, [currentClass]);
@@ -138,7 +153,7 @@ function App() {
                 name='slot'
                 onChange={(e) => setSlot(e.target.value)}
                 value={currentSlot}>
-                {BUCKETS.map(slot => (
+                {buckets.map(slot => (
                   <option key={slot} value={slot}>{capitalize(slot)}</option>
                 ))}
               </Select>

@@ -88,17 +88,12 @@ export const ROGUE_METHODOLOGY = [
 ];
 export const WARRIOR_COLUMNS = [
   { Header: 'Name', accessor: 'name' },
-  { Header: 'Oto Swords Buffed', accessor: 'otoSwords' },
-  { Header: 'Oto Daggers Buffed', accessor: 'otoDaggers' },
-  { Header: 'AEP', accessor: 'aep' },
-  { Header: 'MAEP', accessor: 'maep' },
-  { Header: 'Location', accessor: 'loc' },
-  { Header: 'Phase', accessor: 'phase' },
-  { Header: 'Info', accessor: 'info' },
-  { Header: 'Source', accessor: 'source' },
-  { Header: 'Set', accessor: 'set' },
-  { Header: 'Level', accessor: 'lvl' },
-  { Header: 'Binds on', accessor: 'bindOn' },
+  { Header: 'Tank', accessor: 'tank' },
+  { Header: 'Threat - Prot', accessor: 'threatProt' },
+  { Header: 'Threat - Fury', accessor: 'threatFury' },
+  { Header: 'Value', accessor: 'value' },
+  { Header: 'Location', accessor: 'location' },
+  { Header: 'Defense', accessor: 'defense' },
   { Header: 'Armor', accessor: 'armor' },
   { Header: 'Agility', accessor: 'agility' },
   { Header: 'Stamina', accessor: 'stamina' },
@@ -108,7 +103,10 @@ export const WARRIOR_COLUMNS = [
   { Header: 'Hit Chance', accessor: 'hit' },
   { Header: 'Parry Chance', accessor: 'parry' },
   { Header: 'Dodge Chance', accessor: 'dodge' },
-  { Header: 'Defense', accessor: 'defense' },
+  { Header: 'Block Chance', accessor: 'blockPercentage' },
+  { Header: 'Block', accessor: 'block' },
+  { Header: 'Skill', accessor: 'skill' },
+  { Header: 'Skill Type', accessor: 'skillType' },
   { Header: 'Special', accessor: 'special' },
   { Header: 'Link', accessor: 'link', show: false },
   { Header: 'Quality', accessor: 'quality', show: false },
@@ -145,6 +143,9 @@ export function getOtoSwords(item) {
 }
 
 export function getPercentage(n) {
+  if (n && n >= 1) {
+    return `${n}%`;
+  }
   return n ? `${n * 100}%` : '';
 }
 
@@ -156,7 +157,7 @@ export function capitalize(str) {
   return str.slice(0, 1).toUpperCase() + str.slice(1).toLowerCase();
 }
 
-export function isItemAvailableToday({ phase, loc }) {
+export function isItemAvailableToday({ phase = 1, loc }) {
   return phase <= CURRENT_PHASE || (loc.includes('DM') && phase < 3);
 }
 
