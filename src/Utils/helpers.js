@@ -158,7 +158,7 @@ export function capitalize(str) {
 }
 
 export function isItemAvailableToday({ phase = 1, loc }) {
-  return phase <= CURRENT_PHASE || (loc.includes('DM') && phase < 3);
+  return phase <= CURRENT_PHASE || (loc.includes('DM') && phase < 3) || loc.includes('PVP');
 }
 
 export function normalizeGearDataAndBucketBySlot(items) {
