@@ -1,4 +1,9 @@
 export const CURRENT_PHASE = 1;
+export const WHITELISTED_LOCATIONS = [
+  'Kazzak',
+  'Azuregos',
+  'PVP',
+];
 export const ROGUE_COLUMNS = [
   { Header: 'Name', accessor: 'name' },
   { Header: 'Oto Swords Buffed', accessor: 'otoSwords' },
@@ -157,8 +162,12 @@ export function capitalize(str) {
   return str.slice(0, 1).toUpperCase() + str.slice(1).toLowerCase();
 }
 
-export function isItemAvailableToday({ phase = 1, loc }) {
-  return phase <= CURRENT_PHASE || (loc.includes('DM') && phase < 3) || loc.includes('PVP');
+function isInWhiteList({ source, location, loc}) {
+  return WHITELISTED_LOCATIONS.some(whitelistItem => `${source} ${location} ${loc}`.includes(whitelistItem));
+}
+
+export function isItemAvailableToday({ phase = 1, loc, source, location }) {
+  return phase <= CURRENT_PHASE || (loc.includes('DM') && phase < 3) || isInWhiteList({ loc, source, location});
 }
 
 export function normalizeGearDataAndBucketBySlot(items) {
