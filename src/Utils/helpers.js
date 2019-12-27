@@ -3,6 +3,8 @@ export const WHITELISTED_LOCATIONS = [
   'Kazzak',
   'Azuregos',
   'PVP',
+  'AV',
+  'WSG',
 ];
 export const ROGUE_COLUMNS = [
   { Header: 'Name', accessor: 'name' },
